@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+
+    <dict>
+        <key>title</key>
+        <string>Patreon</string>
+        <key>subtitle</key>
+        <string>Become a patron</string>
+		<key>url</key>
+        <string>https://www.patreon.com/TitanD3v</string>
+        <key>icon</key>
+        <string>patreon.png</string>
+    </dict>
+
+    <dict>
+        <key>title</key>
+        <string>Discord</string>
+        <key>subtitle</key>
+        <string>Chat with us</string>
+		<key>url</key>
+        <string>https://discord.gg/Kk4KYpZ528</string>
+        <key>icon</key>
+        <string>discord.png</string>
+    </dict>
+
+    <dict>
+        <key>title</key>
+        <string>Reddit</string>
+        <key>subtitle</key>
+        <string>Follow me on Reddit</string>
+		<key>url</key>
+        <string>https://www.reddit.com/user/TitanD3v</string>
+        <key>icon</key>
+        <string>reddit.png</string>
+    </dict>
+
+<dict>
+	<key>title</key>
+        <string>Instagram</string>
+        <key>subtitle</key>
+        <string>Follow me on Instagram</string>
+		<key>url</key>
+        <string>https://www.instagram.com//?hl=en</string>
+        <key>icon</key>
+        <string>instagram.png</string>
+    </dict>
+
+<dict>
+		<key>title</key>
+        <string>YouTube</string>
+        <key>subtitle</key>
+        <string>Subscribe me on YouTube</string>
+		<key>url</key>
+        <string>https://www.youtube.com/channel/UCGvKt2TBsA8UBweIO0qF69A/featured?view_as=subscriber</string>
+        <key>icon</key>
+        <string>youtube.png</string>
+    </dict>
+
+	<dict>
+		<key>title</key>
+        <string>PayPal</string>
+        <key>subtitle</key>
+        <string>Any donation is greatly appreciated</string>
+		<key>url</key>
+        <string>https://paypal.me/southerngirlwhocode</string>
+        <key>icon</key>
+        <string>paypal.png</string>
+    </dict>
+
+	<dict>
+		<key>title</key>
+        <string>TitanD3v</string>
+        <key>subtitle</key>
+        <string>Website</string>
+		<key>url</key>
+        <string>https://titand3v.com/</string>
+        <key>icon</key>
+        <string>website.png</string>
+    </dict>
+
+</array>
+</plist>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>items</key>
+		<array>
+
+			<dict>
+				<key>cell</key>
+				<string>PSGroupCell</string>
+				<key>headerCellClass</key>
+				<string>TDHeaderCell</string>
+				<key>title</key>
+				<string>Enable/Disable</string>
+			</dict>
+
+			<dict>
+				<key>cellClass</key>
+				<string>TDEnableCell</string>
+				<key>default</key>
+				<false/>
+				<key>key</key>
+				<string>toggleColourMyDock</string>
+				<key>disabledTitle</key>
+				<string>Disable ColourMyDock</string>
+				<key>enabledTitle</key>
+				<string>Enable ColourMyDock</string>
+				<key>disabledColour</key>
+				<string>B92F2F</string>
+				<key>enabledColour</key>
+				<string>43EB1F</string>
+				<key>disabledIconPath</key>
+				<string>Assets/example-icon.png</string>
+				<key>enabledIconPath</key>
+				<string>Assets/example-icon.png</string>
+				<key>defaults</key>
+				<string>com.TitanD3v.ColourMyDockPrefs</string>
+				<key>PostNotification</key>
+				<string>com.TitanD3v.ColourMyDockPrefs.settingschanged</string>
+			</dict>
+
+			<dict>
+				<key>cell</key>
+				<string>PSGroupCell</string>
+				<key>headerCellClass</key>
+				<string>TDHeaderCell</string>
+				<key>title</key>
+				<string>Gesture</string>
+			</dict>
+
+			<dict>
+				<key>cell</key>
+				<string>PSLinkListCell</string>
+				<key>cellClass</key>
+				<string>TDListCell</string>
+				<key>title</key>
+				<string>Dock</string>
+				<key>subtitle</key>
+				<string>Gesture</string>
+				<key>default</key>
+				<integer>0</integer>
+				<key>detail</key>
+				<string>TDListController</string>
+				<key>key</key>
+				<string>dockGesture</string>
+				<key>validValues</key>
+				<array>
+					<integer>0</integer>
+					<integer>1</integer>
+					<integer>2</integer>
+					<integer>3</integer>
+				</array>
+				<key>validTitles</key>
+				<array>
+					<string>Double Tap</string>
+					<string>Triple Tap</string>
+					<string>Swipe Left</string>
+					<string>Swipe Right</string>
+				</array>
+				<key>iconName</key>
+				<string>button</string>
+				<key>defaults</key>
+				<string>com.TitanD3v.ColourMyDockPrefs</string>
+				<key>PostNotification</key>
+				<string>com.TitanD3v.ColourMyDockPrefs.settingschanged</string>
+			</dict>
+
+			<dict>
+				<key>cell</key>
+				<string>PSGroupCell</string>
+				<key>headerCellClass</key>
+				<string>TDHeaderCell</string>
+				<key>title</key>
+				<string>Border</string>
+			</dict>
+
+			<dict>
+				<key>cell</key>
+				<string>PSSliderCell</string>
+				<key>cellClass</key>
+				<string>TDSliderCell</string>
+				<key>title</key>
+				<string>Border Width</string>
+				<key>default</key>
+				<integer>1</integer>
+				<key>key</key>
+				<string>dockBorderWidth</string>
+				<key>min</key>
+				<integer>0</integer>
+				<key>max</key>
+				<integer>5</integer>
+				<key>showValue</key>
+				<true/>
+				<key>isSegmented</key>
+				<false/>
+				<key>showTips</key>
+				<false/>
+				<key>defaults</key>
+				<string>com.TitanD3v.ColourMyDockPrefs</string>
+				<key>PostNotification</key>
+				<string>com.TitanD3v.ColourMyDockPrefs.settingschanged</string>
+			</dict>
+
+		</array>
+		<key>title</key>
+		<string></string>
+	</dict>
+</plist>

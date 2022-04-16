@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>items</key>
+		<array>
+
+			<dict>
+				<key>cell</key>
+				<string>PSGroupCell</string>
+				<key>headerCellClass</key>
+				<string>TDHeaderCell</string>
+				<key>title</key>
+				<string>Appearance</string>
+			</dict>
+
+			<dict>
+				<key>cellClass</key>
+				<string>TDAppearanceCell</string>
+				<key>key</key>
+				<string>digitneticAppearance</string>
+				<key>default</key>
+				<string>digitneticLight</string>
+				<key>defaults</key>
+				<string>com.TitanD3v.DigitneticPrefs</string>
+				<key>PostNotification</key>
+				<string>com.TitanD3v.DigitneticPrefs.settingschanged</string>
+				<key>options</key>
+				<dict>
+					<key>light</key>
+					<dict>
+						<key>appearanceOption</key>
+						<string>digitneticLight</string>
+						<key>title</key>
+						<string>Light</string>
+						<key>imageName</key>
+						<string>appearance-light</string>
+						<key>arrangement</key>
+						<integer>1</integer>
+					</dict>
+					<key>dark</key>
+					<dict>
+						<key>appearanceOption</key>
+						<string>digitneticDark</string>
+						<key>title</key>
+						<string>Dark</string>
+						<key>imageName</key>
+						<string>appearance-dark</string>
+						<key>arrangement</key>
+						<integer>2</integer>
+					</dict>
+					<key>dynamic</key>
+					<dict>
+						<key>appearanceOption</key>
+						<string>digitneticDynamic</string>
+						<key>title</key>
+						<string>Dynamic</string>
+						<key>imageName</key>
+						<string>appearance-dynamic</string>
+						<key>arrangement</key>
+						<integer>2</integer>
+					</dict>
+				</dict>
+			</dict>
+
+			<dict>
+				<key>cell</key>
+				<string>PSGroupCell</string>
+				<key>headerCellClass</key>
+				<string>TDHeaderCell</string>
+				<key>title</key>
+				<string>Keypad Wallpaper</string>
+			</dict>
+
+			<dict>
+				<key>cellClass</key>
+				<string>TDEnableCell</string>
+				<key>default</key>
+				<false/>
+				<key>key</key>
+				<string>toggleKeypadBackgroundImage</string>
+				<key>disabledTitle</key>
+				<string>Disable Wallpaper</string>
+				<key>enabledTitle</key>
+				<string>Enable Wallpaper</string>
+				<key>disabledColour</key>
+				<string>B92F2F</string>
+				<key>enabledColour</key>
+				<string>43EB1F</string>
+				<key>customIcon</key>
+				<false/>
+				<key>defaults</key>
+				<string>com.TitanD3v.DigitneticPrefs</string>
+				<key>PostNotification</key>
+				<string>com.TitanD3v.DigitneticPrefs.settingschanged</string>
+			</dict>
+
+			<dict>
+				<key>cell</key>
+				<string>PSLinkCell</string>
+				<key>cellClass</key>
+				<string>TDImagePickerCell</string>
+				<key>title</key>
+				<string>Choose</string>
+				<key>subtitle</key>
+				<string>Wallpaper Image</string>
+				<key>action</key>
+				<string>chooseImage</string>
+				<key>key</key>
+				<string>keypadBackgroundImage</string>
+				<key>usesJPEG</key>
+				<true/>
+				<key>compressionQuality</key>
+				<real>1.0</real>
+				<key>iconName</key>
+				<string>photo</string>
+				<key>defaults</key>
+				<string>com.TitanD3v.DigitneticPrefs</string>
+				<key>PostNotification</key>
+				<string>com.TitanD3v.DigitneticPrefs.settingschanged</string>
+			</dict>
+
+			<dict>
+				<key>cell</key>
+				<string>PSGroupCell</string>
+				<key>headerCellClass</key>
+				<string>TDHeaderCell</string>
+				<key>title</key>
+				<string>Calculator Wallpaper</string>
+			</dict>
+
+			<dict>
+				<key>cellClass</key>
+				<string>TDEnableCell</string>
+				<key>default</key>
+				<false/>
+				<key>key</key>
+				<string>toggleCalculatorBackgroundImage</string>
+				<key>disabledTitle</key>
+				<string>Disable Wallpaper</string>
+				<key>enabledTitle</key>
+				<string>Enable Wallpaper</string>
+				<key>disabledColour</key>
+				<string>B92F2F</string>
+				<key>enabledColour</key>
+				<string>43EB1F</string>
+				<key>customIcon</key>
+				<false/>
+				<key>defaults</key>
+				<string>com.TitanD3v.DigitneticPrefs</string>
+				<key>PostNotification</key>
+				<string>com.TitanD3v.DigitneticPrefs.settingschanged</string>
+			</dict>
+
+			<dict>
+				<key>cell</key>
+				<string>PSLinkCell</string>
+				<key>cellClass</key>
+				<string>TDImagePickerCell</string>
+				<key>title</key>
+				<string>Choose</string>
+				<key>subtitle</key>
+				<string>Wallpaper Image</string>
+				<key>action</key>
+				<string>chooseImage</string>
+				<key>key</key>
+				<string>calculatorBackgroundImage</string>
+				<key>usesJPEG</key>
+				<true/>
+				<key>compressionQuality</key>
+				<real>1.0</real>
+				<key>iconName</key>
+				<string>photo</string>
+				<key>defaults</key>
+				<string>com.TitanD3v.DigitneticPrefs</string>
+				<key>PostNotification</key>
+				<string>com.TitanD3v.DigitneticPrefs.settingschanged</string>
+			</dict>
+
+		</array>
+		<key>title</key>
+		<string></string>
+	</dict>
+</plist>

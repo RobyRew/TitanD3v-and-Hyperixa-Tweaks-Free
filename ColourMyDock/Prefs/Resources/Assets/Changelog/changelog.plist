@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <array>
+
+        <dict>
+            <key>Date</key>
+            <string>22nd May 2021</string>
+            <key>Version</key>
+            <string>v2.0</string>
+            <key>ChangelogDescription</key>
+            <array>
+            <string>Added border width</string>
+            <string>Added background image</string>
+            <string>Added border colour</string>
+                <string>Added gesture options on dock - double tap, triple tap, swipe left or right</string>
+                <string>Fixed blur effect when change system appearance light or dark mode</string>
+            </array>
+            <key>updateCategories</key>
+            <array>
+            <integer>3</integer>
+            <integer>3</integer>
+            <integer>3</integer>
+                <integer>3</integer>
+                <integer>1</integer>
+            </array>
+        </dict>
+
+        <dict>
+            <key>Date</key>
+            <string>26th Feb 2021</string>
+            <key>Version</key>
+            <string>v1.0</string>
+            <key>ChangelogDescription</key>
+            <array>
+                <string>Initial Release...</string>  
+            </array>
+            <key>updateCategories</key>
+            <array>
+                <integer>0</integer>
+            </array>
+        </dict>
+        
+    </array>
+</plist>

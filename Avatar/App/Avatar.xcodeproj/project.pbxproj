@@ -1,0 +1,862 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8415462527348E690085E3DD /* Emoji.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8415462427348E690085E3DD /* Emoji.plist */; };
+		8415463C27348EC80085E3DD /* TDEmojiPickerCellHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8415462727348EC80085E3DD /* TDEmojiPickerCellHeaderView.m */; };
+		8415463D27348EC80085E3DD /* TDAvatarIdentityToolsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8415462927348EC80085E3DD /* TDAvatarIdentityToolsCell.m */; };
+		8415463E27348EC80085E3DD /* TDAvatarIdentityEmojiCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8415462A27348EC80085E3DD /* TDAvatarIdentityEmojiCell.m */; };
+		8415463F27348EC80085E3DD /* TDAvatarIdentityStickerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8415462E27348EC80085E3DD /* TDAvatarIdentityStickerCell.m */; };
+		8415464027348EC80085E3DD /* TDEmojiPickerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8415463027348EC80085E3DD /* TDEmojiPickerCell.m */; };
+		8415464127348EC80085E3DD /* TDAvatarIdentityPickerDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 8415463227348EC80085E3DD /* TDAvatarIdentityPickerDataSource.m */; };
+		8415464227348EC80085E3DD /* TDEmojiPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8415463327348EC80085E3DD /* TDEmojiPickerViewController.m */; };
+		8415464327348EC80085E3DD /* TDAvatarIdentityPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8415463527348EC80085E3DD /* TDAvatarIdentityPickerViewController.m */; };
+		8415464427348EC80085E3DD /* TDAvatarIdentityCellHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8415463627348EC80085E3DD /* TDAvatarIdentityCellHeaderView.m */; };
+		8415464527348EC80085E3DD /* TDHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8415463927348EC80085E3DD /* TDHeaderView.m */; };
+		8415464827349C740085E3DD /* RecordingActionMenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8415464627349C740085E3DD /* RecordingActionMenuCell.m */; };
+		8415464B27354EB30085E3DD /* RecordingButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8415464A27354EB30085E3DD /* RecordingButton.m */; };
+		8415464F273566D10085E3DD /* LibraryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8415464E273566D10085E3DD /* LibraryViewController.m */; };
+		84154652273568F80085E3DD /* LibraryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84154650273568F80085E3DD /* LibraryCell.m */; };
+		8415465527356B830085E3DD /* LibraryDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 8415465427356B830085E3DD /* LibraryDataSource.m */; };
+		841546942735C6EE0085E3DD /* Stickers.plist in Resources */ = {isa = PBXBuildFile; fileRef = 841546932735C6EE0085E3DD /* Stickers.plist */; };
+		841546A02735C7260085E3DD /* StickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 841546962735C7260085E3DD /* StickerView.m */; };
+		841546A12735C7260085E3DD /* TDStickerPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 841546982735C7260085E3DD /* TDStickerPickerViewController.m */; };
+		841546A22735C7260085E3DD /* TDStickerPickerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 841546992735C7260085E3DD /* TDStickerPickerCell.m */; };
+		841546A32735C7260085E3DD /* SingleHandGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8415469A2735C7260085E3DD /* SingleHandGestureRecognizer.m */; };
+		841546A42735C7260085E3DD /* TDStickerPickerCellHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8415469C2735C7260085E3DD /* TDStickerPickerCellHeaderView.m */; };
+		841546A72735D5FB0085E3DD /* ARConfiguration+Overrides.m in Sources */ = {isa = PBXBuildFile; fileRef = 841546A62735D5FB0085E3DD /* ARConfiguration+Overrides.m */; };
+		841546AC2735F3600085E3DD /* AvimojiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 841546AB2735F3600085E3DD /* AvimojiViewController.m */; };
+		841546AF2735F39C0085E3DD /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 841546AE2735F39C0085E3DD /* SettingsViewController.m */; };
+		841546B32736C80D0085E3DD /* TutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841546B22736C80D0085E3DD /* TutorialViewController.swift */; };
+		841546C12736C8A80085E3DD /* WhatsNewContentTitleFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841546B62736C8A80085E3DD /* WhatsNewContentTitleFormat.swift */; };
+		841546C22736C8A80085E3DD /* WhatsNewContentCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841546B72736C8A80085E3DD /* WhatsNewContentCard.swift */; };
+		841546C32736C8A80085E3DD /* WhatsNewContentTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841546B82736C8A80085E3DD /* WhatsNewContentTitle.swift */; };
+		841546C42736C8A80085E3DD /* WhatsNewContentBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841546B92736C8A80085E3DD /* WhatsNewContentBase.swift */; };
+		841546C52736C8A80085E3DD /* WhatsNewContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841546BA2736C8A80085E3DD /* WhatsNewContent.swift */; };
+		841546C62736C8A80085E3DD /* WhatsNewContentButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841546BB2736C8A80085E3DD /* WhatsNewContentButton.swift */; };
+		841546C72736C8A80085E3DD /* WhatsNewPrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841546BD2736C8A80085E3DD /* WhatsNewPrimaryButton.swift */; };
+		841546C82736C8A80085E3DD /* WhatsNewCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841546BE2736C8A80085E3DD /* WhatsNewCardView.swift */; };
+		841546C92736C8A80085E3DD /* WhatsNewCardsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841546BF2736C8A80085E3DD /* WhatsNewCardsListView.swift */; };
+		841546CA2736C8A80085E3DD /* WhatsNewBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841546C02736C8A80085E3DD /* WhatsNewBaseView.swift */; };
+		841546CC2736C8CB0085E3DD /* Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841546CB2736C8CB0085E3DD /* Constraints.swift */; };
+		841548BD2737FBBF0085E3DD /* RecordingOnboardingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 841548BC2737FBBF0085E3DD /* RecordingOnboardingViewController.m */; };
+		843D1F73273946F700C2E0B7 /* DefaultMemojiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 843D1F72273946F700C2E0B7 /* DefaultMemojiViewController.m */; };
+		843D1F772739683C00C2E0B7 /* SocialCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 843D1F752739683C00C2E0B7 /* SocialCell.m */; };
+		843D1F7A27396DC200C2E0B7 /* SwitchCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 843D1F7927396DC200C2E0B7 /* SwitchCell.m */; };
+		846BED012733456B00DC42D5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 846BED002733456B00DC42D5 /* AppDelegate.m */; };
+		846BED042733456B00DC42D5 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 846BED032733456B00DC42D5 /* SceneDelegate.m */; };
+		846BED072733456B00DC42D5 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 846BED062733456B00DC42D5 /* HomeViewController.m */; };
+		846BED0C2733456E00DC42D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 846BED0B2733456E00DC42D5 /* Assets.xcassets */; };
+		846BED0F2733456E00DC42D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 846BED0D2733456E00DC42D5 /* LaunchScreen.storyboard */; };
+		846BED122733456E00DC42D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 846BED112733456E00DC42D5 /* main.m */; };
+		846BED1B2733484000DC42D5 /* ConstraintExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 846BED1A2733484000DC42D5 /* ConstraintExtension.m */; };
+		846BED2927334B2000DC42D5 /* AvatarManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 846BED2827334B2000DC42D5 /* AvatarManager.m */; };
+		846BED3727334DFD00DC42D5 /* AnimojiPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 846BED3627334DFD00DC42D5 /* AnimojiPickerViewController.m */; };
+		846BED3A27334E1D00DC42D5 /* AnimojiPickerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 846BED3927334E1C00DC42D5 /* AnimojiPickerCell.m */; };
+		846BED3D273352B500DC42D5 /* RecordingStudioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 846BED3C273352B500DC42D5 /* RecordingStudioViewController.m */; };
+		846BED40273352EA00DC42D5 /* AvatarMotionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 846BED3F273352EA00DC42D5 /* AvatarMotionView.m */; };
+		846BED452733F86900DC42D5 /* AvatarKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 846BED442733F86900DC42D5 /* AvatarKit.framework */; };
+		846BED482733FA8C00DC42D5 /* RecordingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 846BED472733FA8C00DC42D5 /* RecordingManager.m */; };
+		846BED542734235B00DC42D5 /* AvatarVideoPreviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 846BED532734235B00DC42D5 /* AvatarVideoPreviewViewController.m */; };
+		846BED6027346AAF00DC42D5 /* Theme.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 846BED5F27346AAF00DC42D5 /* Theme.xcassets */; };
+		846BED6627346E3D00DC42D5 /* UtilitiesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 846BED6227346E3D00DC42D5 /* UtilitiesView.m */; };
+		846BED6727346E3D00DC42D5 /* GridView.m in Sources */ = {isa = PBXBuildFile; fileRef = 846BED6327346E3D00DC42D5 /* GridView.m */; };
+		846BED6A273475CB00DC42D5 /* HomeNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 846BED69273475CB00DC42D5 /* HomeNavigationViewController.m */; };
+		846BED6D27348B7000DC42D5 /* SettingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 846BED6C27348B7000DC42D5 /* SettingManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8415462427348E690085E3DD /* Emoji.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Emoji.plist; sourceTree = "<group>"; };
+		8415462727348EC80085E3DD /* TDEmojiPickerCellHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDEmojiPickerCellHeaderView.m; sourceTree = "<group>"; };
+		8415462827348EC80085E3DD /* TDAvatarIdentityPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDAvatarIdentityPickerViewController.h; sourceTree = "<group>"; };
+		8415462927348EC80085E3DD /* TDAvatarIdentityToolsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDAvatarIdentityToolsCell.m; sourceTree = "<group>"; };
+		8415462A27348EC80085E3DD /* TDAvatarIdentityEmojiCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDAvatarIdentityEmojiCell.m; sourceTree = "<group>"; };
+		8415462B27348EC80085E3DD /* TDAvatarIdentityEmojiCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDAvatarIdentityEmojiCell.h; sourceTree = "<group>"; };
+		8415462C27348EC80085E3DD /* TDAvatarIdentityToolsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDAvatarIdentityToolsCell.h; sourceTree = "<group>"; };
+		8415462D27348EC80085E3DD /* TDAvatarIdentityStickerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDAvatarIdentityStickerCell.h; sourceTree = "<group>"; };
+		8415462E27348EC80085E3DD /* TDAvatarIdentityStickerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDAvatarIdentityStickerCell.m; sourceTree = "<group>"; };
+		8415462F27348EC80085E3DD /* TDEmojiPickerCellHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDEmojiPickerCellHeaderView.h; sourceTree = "<group>"; };
+		8415463027348EC80085E3DD /* TDEmojiPickerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDEmojiPickerCell.m; sourceTree = "<group>"; };
+		8415463127348EC80085E3DD /* TDEmojiPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDEmojiPickerViewController.h; sourceTree = "<group>"; };
+		8415463227348EC80085E3DD /* TDAvatarIdentityPickerDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDAvatarIdentityPickerDataSource.m; sourceTree = "<group>"; };
+		8415463327348EC80085E3DD /* TDEmojiPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDEmojiPickerViewController.m; sourceTree = "<group>"; };
+		8415463427348EC80085E3DD /* TDEmojiPickerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDEmojiPickerCell.h; sourceTree = "<group>"; };
+		8415463527348EC80085E3DD /* TDAvatarIdentityPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDAvatarIdentityPickerViewController.m; sourceTree = "<group>"; };
+		8415463627348EC80085E3DD /* TDAvatarIdentityCellHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDAvatarIdentityCellHeaderView.m; sourceTree = "<group>"; };
+		8415463727348EC80085E3DD /* TDAvatarIdentityPickerDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDAvatarIdentityPickerDataSource.h; sourceTree = "<group>"; };
+		8415463827348EC80085E3DD /* TDHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDHeaderView.h; sourceTree = "<group>"; };
+		8415463927348EC80085E3DD /* TDHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDHeaderView.m; sourceTree = "<group>"; };
+		8415463A27348EC80085E3DD /* PrivateBlurEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrivateBlurEffect.h; sourceTree = "<group>"; };
+		8415463B27348EC80085E3DD /* TDAvatarIdentityCellHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDAvatarIdentityCellHeaderView.h; sourceTree = "<group>"; };
+		8415464627349C740085E3DD /* RecordingActionMenuCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordingActionMenuCell.m; sourceTree = "<group>"; };
+		8415464727349C740085E3DD /* RecordingActionMenuCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordingActionMenuCell.h; sourceTree = "<group>"; };
+		8415464927354EB30085E3DD /* RecordingButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordingButton.h; sourceTree = "<group>"; };
+		8415464A27354EB30085E3DD /* RecordingButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordingButton.m; sourceTree = "<group>"; };
+		8415464D273566D10085E3DD /* LibraryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LibraryViewController.h; sourceTree = "<group>"; };
+		8415464E273566D10085E3DD /* LibraryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LibraryViewController.m; sourceTree = "<group>"; };
+		84154650273568F80085E3DD /* LibraryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LibraryCell.m; sourceTree = "<group>"; };
+		84154651273568F80085E3DD /* LibraryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LibraryCell.h; sourceTree = "<group>"; };
+		8415465327356B830085E3DD /* LibraryDataSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LibraryDataSource.h; sourceTree = "<group>"; };
+		8415465427356B830085E3DD /* LibraryDataSource.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LibraryDataSource.m; sourceTree = "<group>"; };
+		841546932735C6EE0085E3DD /* Stickers.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Stickers.plist; sourceTree = "<group>"; };
+		841546962735C7260085E3DD /* StickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StickerView.m; sourceTree = "<group>"; };
+		841546972735C7260085E3DD /* TDStickerPickerCellHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDStickerPickerCellHeaderView.h; sourceTree = "<group>"; };
+		841546982735C7260085E3DD /* TDStickerPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDStickerPickerViewController.m; sourceTree = "<group>"; };
+		841546992735C7260085E3DD /* TDStickerPickerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDStickerPickerCell.m; sourceTree = "<group>"; };
+		8415469A2735C7260085E3DD /* SingleHandGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingleHandGestureRecognizer.m; sourceTree = "<group>"; };
+		8415469B2735C7260085E3DD /* StickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StickerView.h; sourceTree = "<group>"; };
+		8415469C2735C7260085E3DD /* TDStickerPickerCellHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDStickerPickerCellHeaderView.m; sourceTree = "<group>"; };
+		8415469D2735C7260085E3DD /* TDStickerPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDStickerPickerViewController.h; sourceTree = "<group>"; };
+		8415469E2735C7260085E3DD /* TDStickerPickerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDStickerPickerCell.h; sourceTree = "<group>"; };
+		8415469F2735C7260085E3DD /* SingleHandGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleHandGestureRecognizer.h; sourceTree = "<group>"; };
+		841546A52735D5FB0085E3DD /* ARConfiguration+Overrides.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ARConfiguration+Overrides.h"; sourceTree = "<group>"; };
+		841546A62735D5FB0085E3DD /* ARConfiguration+Overrides.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ARConfiguration+Overrides.m"; sourceTree = "<group>"; };
+		841546AA2735F3600085E3DD /* AvimojiViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AvimojiViewController.h; sourceTree = "<group>"; };
+		841546AB2735F3600085E3DD /* AvimojiViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AvimojiViewController.m; sourceTree = "<group>"; };
+		841546AD2735F39C0085E3DD /* SettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		841546AE2735F39C0085E3DD /* SettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		841546B12736C80D0085E3DD /* Avatar-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Avatar-Bridging-Header.h"; sourceTree = "<group>"; };
+		841546B22736C80D0085E3DD /* TutorialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialViewController.swift; sourceTree = "<group>"; };
+		841546B62736C8A80085E3DD /* WhatsNewContentTitleFormat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhatsNewContentTitleFormat.swift; sourceTree = "<group>"; };
+		841546B72736C8A80085E3DD /* WhatsNewContentCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhatsNewContentCard.swift; sourceTree = "<group>"; };
+		841546B82736C8A80085E3DD /* WhatsNewContentTitle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhatsNewContentTitle.swift; sourceTree = "<group>"; };
+		841546B92736C8A80085E3DD /* WhatsNewContentBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhatsNewContentBase.swift; sourceTree = "<group>"; };
+		841546BA2736C8A80085E3DD /* WhatsNewContent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhatsNewContent.swift; sourceTree = "<group>"; };
+		841546BB2736C8A80085E3DD /* WhatsNewContentButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhatsNewContentButton.swift; sourceTree = "<group>"; };
+		841546BD2736C8A80085E3DD /* WhatsNewPrimaryButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhatsNewPrimaryButton.swift; sourceTree = "<group>"; };
+		841546BE2736C8A80085E3DD /* WhatsNewCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhatsNewCardView.swift; sourceTree = "<group>"; };
+		841546BF2736C8A80085E3DD /* WhatsNewCardsListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhatsNewCardsListView.swift; sourceTree = "<group>"; };
+		841546C02736C8A80085E3DD /* WhatsNewBaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhatsNewBaseView.swift; sourceTree = "<group>"; };
+		841546CB2736C8CB0085E3DD /* Constraints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constraints.swift; sourceTree = "<group>"; };
+		841548BB2737FBBF0085E3DD /* RecordingOnboardingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecordingOnboardingViewController.h; sourceTree = "<group>"; };
+		841548BC2737FBBF0085E3DD /* RecordingOnboardingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecordingOnboardingViewController.m; sourceTree = "<group>"; };
+		843D1F71273946F700C2E0B7 /* DefaultMemojiViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DefaultMemojiViewController.h; sourceTree = "<group>"; };
+		843D1F72273946F700C2E0B7 /* DefaultMemojiViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DefaultMemojiViewController.m; sourceTree = "<group>"; };
+		843D1F752739683C00C2E0B7 /* SocialCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocialCell.m; sourceTree = "<group>"; };
+		843D1F762739683C00C2E0B7 /* SocialCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocialCell.h; sourceTree = "<group>"; };
+		843D1F7827396DC200C2E0B7 /* SwitchCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwitchCell.h; sourceTree = "<group>"; };
+		843D1F7927396DC200C2E0B7 /* SwitchCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwitchCell.m; sourceTree = "<group>"; };
+		846BECFC2733456B00DC42D5 /* Avatar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Avatar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		846BECFF2733456B00DC42D5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		846BED002733456B00DC42D5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		846BED022733456B00DC42D5 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		846BED032733456B00DC42D5 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		846BED052733456B00DC42D5 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		846BED062733456B00DC42D5 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		846BED0B2733456E00DC42D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		846BED0E2733456E00DC42D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		846BED102733456E00DC42D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		846BED112733456E00DC42D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		846BED192733484000DC42D5 /* ConstraintExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConstraintExtension.h; sourceTree = "<group>"; };
+		846BED1A2733484000DC42D5 /* ConstraintExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConstraintExtension.m; sourceTree = "<group>"; };
+		846BED2727334B2000DC42D5 /* AvatarManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AvatarManager.h; sourceTree = "<group>"; };
+		846BED2827334B2000DC42D5 /* AvatarManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AvatarManager.m; sourceTree = "<group>"; };
+		846BED2B27334C6700DC42D5 /* AVTAnimoji.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVTAnimoji.h; sourceTree = "<group>"; };
+		846BED2C27334C6700DC42D5 /* AVTAvatar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVTAvatar.h; sourceTree = "<group>"; };
+		846BED2E27334C6700DC42D5 /* AVTView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVTView.h; sourceTree = "<group>"; };
+		846BED2F27334C6700DC42D5 /* AVTRecordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVTRecordView.h; sourceTree = "<group>"; };
+		846BED3127334C6700DC42D5 /* AVTAvatarStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVTAvatarStore.h; sourceTree = "<group>"; };
+		846BED3227334C6700DC42D5 /* AVTAvatarLibraryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVTAvatarLibraryViewController.h; sourceTree = "<group>"; };
+		846BED3527334DFD00DC42D5 /* AnimojiPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimojiPickerViewController.h; sourceTree = "<group>"; };
+		846BED3627334DFD00DC42D5 /* AnimojiPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimojiPickerViewController.m; sourceTree = "<group>"; };
+		846BED3827334E1C00DC42D5 /* AnimojiPickerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimojiPickerCell.h; sourceTree = "<group>"; };
+		846BED3927334E1C00DC42D5 /* AnimojiPickerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimojiPickerCell.m; sourceTree = "<group>"; };
+		846BED3B273352B500DC42D5 /* RecordingStudioViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordingStudioViewController.h; sourceTree = "<group>"; };
+		846BED3C273352B500DC42D5 /* RecordingStudioViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordingStudioViewController.m; sourceTree = "<group>"; };
+		846BED3E273352EA00DC42D5 /* AvatarMotionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AvatarMotionView.h; sourceTree = "<group>"; };
+		846BED3F273352EA00DC42D5 /* AvatarMotionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AvatarMotionView.m; sourceTree = "<group>"; };
+		846BED442733F86900DC42D5 /* AvatarKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AvatarKit.framework; sourceTree = "<group>"; };
+		846BED462733FA8C00DC42D5 /* RecordingManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordingManager.h; sourceTree = "<group>"; };
+		846BED472733FA8C00DC42D5 /* RecordingManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordingManager.m; sourceTree = "<group>"; };
+		846BED522734235B00DC42D5 /* AvatarVideoPreviewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AvatarVideoPreviewViewController.h; sourceTree = "<group>"; };
+		846BED532734235B00DC42D5 /* AvatarVideoPreviewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AvatarVideoPreviewViewController.m; sourceTree = "<group>"; };
+		846BED5F27346AAF00DC42D5 /* Theme.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Theme.xcassets; sourceTree = "<group>"; };
+		846BED6227346E3D00DC42D5 /* UtilitiesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UtilitiesView.m; sourceTree = "<group>"; };
+		846BED6327346E3D00DC42D5 /* GridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GridView.m; sourceTree = "<group>"; };
+		846BED6427346E3D00DC42D5 /* GridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GridView.h; sourceTree = "<group>"; };
+		846BED6527346E3D00DC42D5 /* UtilitiesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UtilitiesView.h; sourceTree = "<group>"; };
+		846BED68273475CB00DC42D5 /* HomeNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeNavigationViewController.h; sourceTree = "<group>"; };
+		846BED69273475CB00DC42D5 /* HomeNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeNavigationViewController.m; sourceTree = "<group>"; };
+		846BED6B27348B7000DC42D5 /* SettingManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingManager.h; sourceTree = "<group>"; };
+		846BED6C27348B7000DC42D5 /* SettingManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		846BECF92733456B00DC42D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846BED452733F86900DC42D5 /* AvatarKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8415462627348E900085E3DD /* AvatarPicker */ = {
+			isa = PBXGroup;
+			children = (
+				8415463A27348EC80085E3DD /* PrivateBlurEffect.h */,
+				8415463B27348EC80085E3DD /* TDAvatarIdentityCellHeaderView.h */,
+				8415463627348EC80085E3DD /* TDAvatarIdentityCellHeaderView.m */,
+				8415462B27348EC80085E3DD /* TDAvatarIdentityEmojiCell.h */,
+				8415462A27348EC80085E3DD /* TDAvatarIdentityEmojiCell.m */,
+				8415463727348EC80085E3DD /* TDAvatarIdentityPickerDataSource.h */,
+				8415463227348EC80085E3DD /* TDAvatarIdentityPickerDataSource.m */,
+				8415462827348EC80085E3DD /* TDAvatarIdentityPickerViewController.h */,
+				8415463527348EC80085E3DD /* TDAvatarIdentityPickerViewController.m */,
+				8415462D27348EC80085E3DD /* TDAvatarIdentityStickerCell.h */,
+				8415462E27348EC80085E3DD /* TDAvatarIdentityStickerCell.m */,
+				8415462C27348EC80085E3DD /* TDAvatarIdentityToolsCell.h */,
+				8415462927348EC80085E3DD /* TDAvatarIdentityToolsCell.m */,
+				8415463427348EC80085E3DD /* TDEmojiPickerCell.h */,
+				8415463027348EC80085E3DD /* TDEmojiPickerCell.m */,
+				8415462F27348EC80085E3DD /* TDEmojiPickerCellHeaderView.h */,
+				8415462727348EC80085E3DD /* TDEmojiPickerCellHeaderView.m */,
+				8415463127348EC80085E3DD /* TDEmojiPickerViewController.h */,
+				8415463327348EC80085E3DD /* TDEmojiPickerViewController.m */,
+				8415463827348EC80085E3DD /* TDHeaderView.h */,
+				8415463927348EC80085E3DD /* TDHeaderView.m */,
+			);
+			path = AvatarPicker;
+			sourceTree = "<group>";
+		};
+		8415464C273566AC0085E3DD /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				8415464D273566D10085E3DD /* LibraryViewController.h */,
+				8415464E273566D10085E3DD /* LibraryViewController.m */,
+				8415465327356B830085E3DD /* LibraryDataSource.h */,
+				8415465427356B830085E3DD /* LibraryDataSource.m */,
+				84154651273568F80085E3DD /* LibraryCell.h */,
+				84154650273568F80085E3DD /* LibraryCell.m */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		841546952735C6F50085E3DD /* StickerPicker */ = {
+			isa = PBXGroup;
+			children = (
+				8415469F2735C7260085E3DD /* SingleHandGestureRecognizer.h */,
+				8415469A2735C7260085E3DD /* SingleHandGestureRecognizer.m */,
+				8415469B2735C7260085E3DD /* StickerView.h */,
+				841546962735C7260085E3DD /* StickerView.m */,
+				8415469E2735C7260085E3DD /* TDStickerPickerCell.h */,
+				841546992735C7260085E3DD /* TDStickerPickerCell.m */,
+				841546972735C7260085E3DD /* TDStickerPickerCellHeaderView.h */,
+				8415469C2735C7260085E3DD /* TDStickerPickerCellHeaderView.m */,
+				8415469D2735C7260085E3DD /* TDStickerPickerViewController.h */,
+				841546982735C7260085E3DD /* TDStickerPickerViewController.m */,
+			);
+			path = StickerPicker;
+			sourceTree = "<group>";
+		};
+		841546A82735F33B0085E3DD /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				841546AD2735F39C0085E3DD /* SettingsViewController.h */,
+				841546AE2735F39C0085E3DD /* SettingsViewController.m */,
+				843D1F762739683C00C2E0B7 /* SocialCell.h */,
+				843D1F752739683C00C2E0B7 /* SocialCell.m */,
+				843D1F7827396DC200C2E0B7 /* SwitchCell.h */,
+				843D1F7927396DC200C2E0B7 /* SwitchCell.m */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		841546A92735F3460085E3DD /* Avimoji */ = {
+			isa = PBXGroup;
+			children = (
+				841546AA2735F3600085E3DD /* AvimojiViewController.h */,
+				841546AB2735F3600085E3DD /* AvimojiViewController.m */,
+			);
+			path = Avimoji;
+			sourceTree = "<group>";
+		};
+		841546B02736C7DE0085E3DD /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				841546B42736C8A80085E3DD /* What's New */,
+				841546CB2736C8CB0085E3DD /* Constraints.swift */,
+				841546B22736C80D0085E3DD /* TutorialViewController.swift */,
+				841546B12736C80D0085E3DD /* Avatar-Bridging-Header.h */,
+			);
+			path = Swift;
+			sourceTree = "<group>";
+		};
+		841546B42736C8A80085E3DD /* What's New */ = {
+			isa = PBXGroup;
+			children = (
+				841546B52736C8A80085E3DD /* Content */,
+				841546BC2736C8A80085E3DD /* Views */,
+			);
+			path = "What's New";
+			sourceTree = "<group>";
+		};
+		841546B52736C8A80085E3DD /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				841546B62736C8A80085E3DD /* WhatsNewContentTitleFormat.swift */,
+				841546B72736C8A80085E3DD /* WhatsNewContentCard.swift */,
+				841546B82736C8A80085E3DD /* WhatsNewContentTitle.swift */,
+				841546B92736C8A80085E3DD /* WhatsNewContentBase.swift */,
+				841546BA2736C8A80085E3DD /* WhatsNewContent.swift */,
+				841546BB2736C8A80085E3DD /* WhatsNewContentButton.swift */,
+			);
+			path = Content;
+			sourceTree = "<group>";
+		};
+		841546BC2736C8A80085E3DD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				841546BD2736C8A80085E3DD /* WhatsNewPrimaryButton.swift */,
+				841546BE2736C8A80085E3DD /* WhatsNewCardView.swift */,
+				841546BF2736C8A80085E3DD /* WhatsNewCardsListView.swift */,
+				841546C02736C8A80085E3DD /* WhatsNewBaseView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		843D1F742739475B00C2E0B7 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				843D1F71273946F700C2E0B7 /* DefaultMemojiViewController.h */,
+				843D1F72273946F700C2E0B7 /* DefaultMemojiViewController.m */,
+				841548BB2737FBBF0085E3DD /* RecordingOnboardingViewController.h */,
+				841548BC2737FBBF0085E3DD /* RecordingOnboardingViewController.m */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		846BECF32733456B00DC42D5 = {
+			isa = PBXGroup;
+			children = (
+				846BECFE2733456B00DC42D5 /* Avatar */,
+				846BECFD2733456B00DC42D5 /* Products */,
+				846BED1C273348B500DC42D5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		846BECFD2733456B00DC42D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				846BECFC2733456B00DC42D5 /* Avatar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		846BECFE2733456B00DC42D5 /* Avatar */ = {
+			isa = PBXGroup;
+			children = (
+				841546B02736C7DE0085E3DD /* Swift */,
+				846BED2627334B0900DC42D5 /* Manager */,
+				846BED2A27334C6700DC42D5 /* AvatarKit */,
+				846BED5A273444F500DC42D5 /* Extensions */,
+				846BED6127346D9800DC42D5 /* CustomClasses */,
+				8415462627348E900085E3DD /* AvatarPicker */,
+				841546952735C6F50085E3DD /* StickerPicker */,
+				846BED182733459A00DC42D5 /* Core */,
+				846BED59273444DB00DC42D5 /* Home */,
+				846BED5D27345D6400DC42D5 /* Animoji */,
+				846BED5C27345D5900DC42D5 /* Recording */,
+				8415464C273566AC0085E3DD /* Library */,
+				846BED5B27344A3000DC42D5 /* Preview */,
+				841546A92735F3460085E3DD /* Avimoji */,
+				841546A82735F33B0085E3DD /* Settings */,
+				843D1F742739475B00C2E0B7 /* Onboarding */,
+				846BED0B2733456E00DC42D5 /* Assets.xcassets */,
+				846BED5F27346AAF00DC42D5 /* Theme.xcassets */,
+				846BED0D2733456E00DC42D5 /* LaunchScreen.storyboard */,
+				846BED102733456E00DC42D5 /* Info.plist */,
+				846BED112733456E00DC42D5 /* main.m */,
+			);
+			path = Avatar;
+			sourceTree = "<group>";
+		};
+		846BED182733459A00DC42D5 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				841546932735C6EE0085E3DD /* Stickers.plist */,
+				8415462427348E690085E3DD /* Emoji.plist */,
+				846BECFF2733456B00DC42D5 /* AppDelegate.h */,
+				846BED002733456B00DC42D5 /* AppDelegate.m */,
+				846BED022733456B00DC42D5 /* SceneDelegate.h */,
+				846BED032733456B00DC42D5 /* SceneDelegate.m */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		846BED1C273348B500DC42D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		846BED2627334B0900DC42D5 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				841546A52735D5FB0085E3DD /* ARConfiguration+Overrides.h */,
+				841546A62735D5FB0085E3DD /* ARConfiguration+Overrides.m */,
+				846BED462733FA8C00DC42D5 /* RecordingManager.h */,
+				846BED472733FA8C00DC42D5 /* RecordingManager.m */,
+				846BED2727334B2000DC42D5 /* AvatarManager.h */,
+				846BED2827334B2000DC42D5 /* AvatarManager.m */,
+				846BED6B27348B7000DC42D5 /* SettingManager.h */,
+				846BED6C27348B7000DC42D5 /* SettingManager.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		846BED2A27334C6700DC42D5 /* AvatarKit */ = {
+			isa = PBXGroup;
+			children = (
+				846BED442733F86900DC42D5 /* AvatarKit.framework */,
+				846BED3E273352EA00DC42D5 /* AvatarMotionView.h */,
+				846BED3F273352EA00DC42D5 /* AvatarMotionView.m */,
+				846BED2B27334C6700DC42D5 /* AVTAnimoji.h */,
+				846BED2C27334C6700DC42D5 /* AVTAvatar.h */,
+				846BED2E27334C6700DC42D5 /* AVTView.h */,
+				846BED2F27334C6700DC42D5 /* AVTRecordView.h */,
+				846BED3127334C6700DC42D5 /* AVTAvatarStore.h */,
+				846BED3227334C6700DC42D5 /* AVTAvatarLibraryViewController.h */,
+			);
+			path = AvatarKit;
+			sourceTree = "<group>";
+		};
+		846BED59273444DB00DC42D5 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				846BED052733456B00DC42D5 /* HomeViewController.h */,
+				846BED062733456B00DC42D5 /* HomeViewController.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		846BED5A273444F500DC42D5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				846BED192733484000DC42D5 /* ConstraintExtension.h */,
+				846BED1A2733484000DC42D5 /* ConstraintExtension.m */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		846BED5B27344A3000DC42D5 /* Preview */ = {
+			isa = PBXGroup;
+			children = (
+				846BED522734235B00DC42D5 /* AvatarVideoPreviewViewController.h */,
+				846BED532734235B00DC42D5 /* AvatarVideoPreviewViewController.m */,
+			);
+			path = Preview;
+			sourceTree = "<group>";
+		};
+		846BED5C27345D5900DC42D5 /* Recording */ = {
+			isa = PBXGroup;
+			children = (
+				846BED3B273352B500DC42D5 /* RecordingStudioViewController.h */,
+				846BED3C273352B500DC42D5 /* RecordingStudioViewController.m */,
+				8415464727349C740085E3DD /* RecordingActionMenuCell.h */,
+				8415464627349C740085E3DD /* RecordingActionMenuCell.m */,
+			);
+			path = Recording;
+			sourceTree = "<group>";
+		};
+		846BED5D27345D6400DC42D5 /* Animoji */ = {
+			isa = PBXGroup;
+			children = (
+				846BED3527334DFD00DC42D5 /* AnimojiPickerViewController.h */,
+				846BED3627334DFD00DC42D5 /* AnimojiPickerViewController.m */,
+				846BED3827334E1C00DC42D5 /* AnimojiPickerCell.h */,
+				846BED3927334E1C00DC42D5 /* AnimojiPickerCell.m */,
+			);
+			path = Animoji;
+			sourceTree = "<group>";
+		};
+		846BED6127346D9800DC42D5 /* CustomClasses */ = {
+			isa = PBXGroup;
+			children = (
+				846BED68273475CB00DC42D5 /* HomeNavigationViewController.h */,
+				846BED69273475CB00DC42D5 /* HomeNavigationViewController.m */,
+				846BED6427346E3D00DC42D5 /* GridView.h */,
+				846BED6327346E3D00DC42D5 /* GridView.m */,
+				846BED6527346E3D00DC42D5 /* UtilitiesView.h */,
+				846BED6227346E3D00DC42D5 /* UtilitiesView.m */,
+				8415464927354EB30085E3DD /* RecordingButton.h */,
+				8415464A27354EB30085E3DD /* RecordingButton.m */,
+			);
+			path = CustomClasses;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		846BECFB2733456B00DC42D5 /* Avatar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 846BED152733456E00DC42D5 /* Build configuration list for PBXNativeTarget "Avatar" */;
+			buildPhases = (
+				846BECF82733456B00DC42D5 /* Sources */,
+				846BECF92733456B00DC42D5 /* Frameworks */,
+				846BECFA2733456B00DC42D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Avatar;
+			productName = Avatar;
+			productReference = 846BECFC2733456B00DC42D5 /* Avatar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		846BECF42733456B00DC42D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					846BECFB2733456B00DC42D5 = {
+						CreatedOnToolsVersion = 13.0;
+						LastSwiftMigration = 1300;
+					};
+				};
+			};
+			buildConfigurationList = 846BECF72733456B00DC42D5 /* Build configuration list for PBXProject "Avatar" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 846BECF32733456B00DC42D5;
+			productRefGroup = 846BECFD2733456B00DC42D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				846BECFB2733456B00DC42D5 /* Avatar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		846BECFA2733456B00DC42D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				841546942735C6EE0085E3DD /* Stickers.plist in Resources */,
+				846BED0F2733456E00DC42D5 /* LaunchScreen.storyboard in Resources */,
+				8415462527348E690085E3DD /* Emoji.plist in Resources */,
+				846BED6027346AAF00DC42D5 /* Theme.xcassets in Resources */,
+				846BED0C2733456E00DC42D5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		846BECF82733456B00DC42D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8415465527356B830085E3DD /* LibraryDataSource.m in Sources */,
+				8415463C27348EC80085E3DD /* TDEmojiPickerCellHeaderView.m in Sources */,
+				841546B32736C80D0085E3DD /* TutorialViewController.swift in Sources */,
+				846BED3727334DFD00DC42D5 /* AnimojiPickerViewController.m in Sources */,
+				841546C62736C8A80085E3DD /* WhatsNewContentButton.swift in Sources */,
+				846BED2927334B2000DC42D5 /* AvatarManager.m in Sources */,
+				8415464427348EC80085E3DD /* TDAvatarIdentityCellHeaderView.m in Sources */,
+				841546C52736C8A80085E3DD /* WhatsNewContent.swift in Sources */,
+				846BED6A273475CB00DC42D5 /* HomeNavigationViewController.m in Sources */,
+				841546C12736C8A80085E3DD /* WhatsNewContentTitleFormat.swift in Sources */,
+				846BED6727346E3D00DC42D5 /* GridView.m in Sources */,
+				843D1F73273946F700C2E0B7 /* DefaultMemojiViewController.m in Sources */,
+				846BED6D27348B7000DC42D5 /* SettingManager.m in Sources */,
+				8415464B27354EB30085E3DD /* RecordingButton.m in Sources */,
+				8415463F27348EC80085E3DD /* TDAvatarIdentityStickerCell.m in Sources */,
+				841546CA2736C8A80085E3DD /* WhatsNewBaseView.swift in Sources */,
+				8415464227348EC80085E3DD /* TDEmojiPickerViewController.m in Sources */,
+				846BED482733FA8C00DC42D5 /* RecordingManager.m in Sources */,
+				841546AF2735F39C0085E3DD /* SettingsViewController.m in Sources */,
+				846BED542734235B00DC42D5 /* AvatarVideoPreviewViewController.m in Sources */,
+				841546CC2736C8CB0085E3DD /* Constraints.swift in Sources */,
+				841546A22735C7260085E3DD /* TDStickerPickerCell.m in Sources */,
+				841546AC2735F3600085E3DD /* AvimojiViewController.m in Sources */,
+				84154652273568F80085E3DD /* LibraryCell.m in Sources */,
+				841546C92736C8A80085E3DD /* WhatsNewCardsListView.swift in Sources */,
+				841546C72736C8A80085E3DD /* WhatsNewPrimaryButton.swift in Sources */,
+				843D1F772739683C00C2E0B7 /* SocialCell.m in Sources */,
+				8415464F273566D10085E3DD /* LibraryViewController.m in Sources */,
+				841546C82736C8A80085E3DD /* WhatsNewCardView.swift in Sources */,
+				8415464127348EC80085E3DD /* TDAvatarIdentityPickerDataSource.m in Sources */,
+				846BED3A27334E1D00DC42D5 /* AnimojiPickerCell.m in Sources */,
+				846BED072733456B00DC42D5 /* HomeViewController.m in Sources */,
+				841546A72735D5FB0085E3DD /* ARConfiguration+Overrides.m in Sources */,
+				846BED6627346E3D00DC42D5 /* UtilitiesView.m in Sources */,
+				846BED40273352EA00DC42D5 /* AvatarMotionView.m in Sources */,
+				8415464327348EC80085E3DD /* TDAvatarIdentityPickerViewController.m in Sources */,
+				8415464027348EC80085E3DD /* TDEmojiPickerCell.m in Sources */,
+				843D1F7A27396DC200C2E0B7 /* SwitchCell.m in Sources */,
+				841546A12735C7260085E3DD /* TDStickerPickerViewController.m in Sources */,
+				846BED012733456B00DC42D5 /* AppDelegate.m in Sources */,
+				841548BD2737FBBF0085E3DD /* RecordingOnboardingViewController.m in Sources */,
+				846BED122733456E00DC42D5 /* main.m in Sources */,
+				841546A02735C7260085E3DD /* StickerView.m in Sources */,
+				841546C32736C8A80085E3DD /* WhatsNewContentTitle.swift in Sources */,
+				8415463E27348EC80085E3DD /* TDAvatarIdentityEmojiCell.m in Sources */,
+				841546A32735C7260085E3DD /* SingleHandGestureRecognizer.m in Sources */,
+				8415464827349C740085E3DD /* RecordingActionMenuCell.m in Sources */,
+				846BED1B2733484000DC42D5 /* ConstraintExtension.m in Sources */,
+				846BED042733456B00DC42D5 /* SceneDelegate.m in Sources */,
+				8415464527348EC80085E3DD /* TDHeaderView.m in Sources */,
+				841546C22736C8A80085E3DD /* WhatsNewContentCard.swift in Sources */,
+				841546A42735C7260085E3DD /* TDStickerPickerCellHeaderView.m in Sources */,
+				8415463D27348EC80085E3DD /* TDAvatarIdentityToolsCell.m in Sources */,
+				846BED3D273352B500DC42D5 /* RecordingStudioViewController.m in Sources */,
+				841546C42736C8A80085E3DD /* WhatsNewContentBase.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		846BED0D2733456E00DC42D5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				846BED0E2733456E00DC42D5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		846BED132733456E00DC42D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		846BED142733456E00DC42D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		846BED162733456E00DC42D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Avatar",
+					"$(PROJECT_DIR)/Avatar/Manager/AvatarKit",
+					"$(PROJECT_DIR)/Avatar/AvatarKit",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Avatar/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "I need to access your camera to capture your facial expressions";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "I need access to the microphone to record audio";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "I need access to your photo library to save your video";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.titand3v.Avatar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Avatar/Swift/Avatar-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		846BED172733456E00DC42D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Avatar",
+					"$(PROJECT_DIR)/Avatar/Manager/AvatarKit",
+					"$(PROJECT_DIR)/Avatar/AvatarKit",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Avatar/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "I need to access your camera to capture your facial expressions";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "I need access to the microphone to record audio";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "I need access to your photo library to save your video";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.titand3v.Avatar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Avatar/Swift/Avatar-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		846BECF72733456B00DC42D5 /* Build configuration list for PBXProject "Avatar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846BED132733456E00DC42D5 /* Debug */,
+				846BED142733456E00DC42D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		846BED152733456E00DC42D5 /* Build configuration list for PBXNativeTarget "Avatar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846BED162733456E00DC42D5 /* Debug */,
+				846BED172733456E00DC42D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 846BECF42733456B00DC42D5 /* Project object */;
+}

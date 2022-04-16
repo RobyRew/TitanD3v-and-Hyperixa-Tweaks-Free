@@ -1,0 +1,11 @@
+Package: com.titand3v.libtitand3vuniversal
+Name: libTitanD3vUniversal
+Version: 1.9
+Architecture: iphoneos-arm
+Description: TitanD3v universal library!
+Maintainer: TitanD3v
+Author: TitanD3v
+Section: System
+Tag: role::developer
+Depiction: https://titand3v.github.io/depictions/titand3vlib/index.html
+Icon: https://titand3v.github.io/depictions/titand3vlib/assets/icon.png

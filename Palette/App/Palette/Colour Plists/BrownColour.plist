@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <array>
+        
+        <dict>
+            <key>colourName</key>
+            <string>Almond</string>
+            <key>hexCode</key>
+            <string>EADDCA</string>
+        </dict>
+        
+        <dict>
+            <key>colourName</key>
+            <string>Brass</string>
+            <key>hexCode</key>
+            <string>E1C16E</string>
+        </dict>
+        
+        <dict>
+            <key>colourName</key>
+            <string>Bronze</string>
+            <key>hexCode</key>
+            <string>CD7F32</string>
+        </dict>
+        
+        <dict>
+            <key>colourName</key>
+            <string>Brown</string>
+            <key>hexCode</key>
+            <string>A52A2A</string>
+        </dict>
+        
+        <dict>
+            <key>colourName</key>
+            <string>Buff</string>
+            <key>hexCode</key>
+            <string>DAA06D</string>
+        </dict>
+        
+        <dict>
+            <key>colourName</key>
+            <string>Burgundy</string>
+            <key>hexCode</key>
+            <string>800020</string>
+        </dict>
+        
+        <dict>
+            <key>colourName</key>
+            <string>Burnt Umber</string>
+            <key>hexCode</key>
+            <string>6E260E</string>
+        </dict>
+        
+        <dict>
+            <key>colourName</key>
+            <string>Camel</string>
+            <key>hexCode</key>
+            <string>C19A6B</string>
+        </dict>
+        
+        <dict>
+            <key>colourName</key>
+            <string>Chestnut</string>
+            <key>hexCode</key>
+            <string>954535</string>
+        </dict>
+        
+        <dict>
+            <key>colourName</key>
+            <string>Chocolate</string>
+            <key>hexCode</key>
+            <string>7B3F00</string>
+        </dict>
+        
+        <dict>
+            <key>colourName</key>
+            <string>Cinnamon</string>
+            <key>hexCode</key>
+            <string>D27D2D</string>
+        </dict>
+        
+        <dict>
+            <key>colourName</key>
+            <string>Coffee</string>
+            <key>hexCode</key>
+            <string>6F4E37</string>
+        </dict>
+        
+        <dict>
+            <key>colourName</key>
+            <string>Cognac</string>
+            <key>hexCode</key>
+            <string>834333</string>
+        </dict>
+        
+        <dict>
+            <key>colourName</key>
+            <string>Copper</string>
+            <key>hexCode</key>
+            <string>B87333</string>
+        </dict>
+        
+        <dict>
+            <key>colourName</key>
+            <string>Cordovan</string>
+            <key>hexCode</key>
+            <string>814141</string>
+        </dict>
+        
+        <dict>
+            <key>colourName</key>
+            <string>Dark Brown</string>
+            <key>hexCode</key>
+            <string>5C4033</string>
+        </dict>
+        
+        <dict>
+            <key>colourName</key>
+            <string>Dark Tan</string>
+            <key>hexCode</key>
+            <string>988558</string>
+        </dict>
+        
+        <dict>
+            <key>colourName</key>
+            <string>Ecru</string>
+            <key>hexCode</key>
+            <string>C2B280</string>
+        </dict>
+        
+        <dict>
+            <key>colourName</key>
+            <string>Fallow</string>
+            <key>hexCode</key>
+            <string>C19A6B</string>
+        </dict>
+        
+        <dict>
+            <key>colourName</key>
+            <string>Fawn</string>
+            <key>hexCode</key>
+            <string>E5AA70</string>
+        </dict>
+        
+        <dict>
+            <key>colourName</key>
+            <string>Garnet</string>
+            <key>hexCode</key>
+            <string>9A2A2A</string>
+        </dict>
+        
+        <dict>
+            <key>colourName</key>
+            <string>Golden Brown</string>
+            <key>hexCode</key>
+            <string>966919</string>
+        </dict>
+        
+        <dict>
+            <key>colourName</key>
+            <string>Light Brown</string>
+            <key>hexCode</key>
+            <string>C4A484</string>
+        </dict>
+        
+        <dict>
+            <key>colourName</key>
+            <string>Mahogany</string>
+            <key>hexCode</key>
+            <string>C04000</string>
+        </dict>
+        
+        <dict>
+            <key>colourName</key>
+            <string>Maroon</string>
+            <key>hexCode</key>
+            <string>800000</string>
+        </dict>
+        
+        <dict>
+            <key>colourName</key>
+            <string>Mocha</string>
+            <key>hexCode</key>
+            <string>967969</string>
+        </dict>
+        
+        <dict>
+            <key>colourName</key>
+            <string>Nude</string>
+            <key>hexCode</key>
+            <string>F2D2BD</string>
+        </dict>
+        
+        <dict>
+            <key>colourName</key>
+            <string>Ochre</string>
+            <key>hexCode</key>
+            <string>CC7722</string>
+        </dict>
+        
+        <dict>
+            <key>colourName</key>
+            <string>Puce</string>
+            <key>hexCode</key>
+            <string>A95C68</string>
+        </dict>
+        
+        <dict>
+            <key>colourName</key>
+            <string>Red Brown</string>
+            <key>hexCode</key>
+            <string>A52A2A</string>
+        </dict>
+        
+        <dict>
+            <key>colourName</key>
+            <string>Russet</string>
+            <key>hexCode</key>
+            <string>80461B</string>
+        </dict>
+        
+        <dict>
+            <key>colourName</key>
+            <string>Saddle Brown</string>
+            <key>hexCode</key>
+            <string>8B4513</string>
+        </dict>
+        
+        <dict>
+            <key>colourName</key>
+            <string>Sand</string>
+            <key>hexCode</key>
+            <string>C2B280</string>
+        </dict>
+        
+        <dict>
+            <key>colourName</key>
+            <string>Sienna</string>
+            <key>hexCode</key>
+            <string>A0522D</string>
+        </dict>
+        
+        <dict>
+            <key>colourName</key>
+            <string>Tan</string>
+            <key>hexCode</key>
+            <string>D2B48C</string>
+        </dict>
+        
+        <dict>
+            <key>colourName</key>
+            <string>Taupe</string>
+            <key>hexCode</key>
+            <string>483C32</string>
+        </dict>
+        
+        <dict>
+            <key>colourName</key>
+            <string>Tuscan Red</string>
+            <key>hexCode</key>
+            <string>7C3030</string>
+        </dict>
+        
+        <dict>
+            <key>colourName</key>
+            <string>Wheat</string>
+            <key>hexCode</key>
+            <string>F5DEB3</string>
+        </dict>
+        
+        <dict>
+            <key>colourName</key>
+            <string>Wine</string>
+            <key>hexCode</key>
+            <string>722F37</string>
+        </dict>
+     
+    </array>
+</plist>

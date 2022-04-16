@@ -1,0 +1,11 @@
+Package: com.titand3v.flowing
+Name: Flowing
+Architecture: iphoneos-arm
+Depends: mobilesubstrate, com.titand3v.libtitand3vuniversal
+Version: 1.0
+Section: Tweaks
+Description: Disable paging scrolling on SpringBoard
+Maintainer: TitanD3v <titand3veloper@gmail.com>
+Author: TitanD3v <titand3veloper@gmail.com>
+Depiction: https://titand3v.github.io/depictions/flowing/index.html
+Icon: https://titand3v.github.io/depictions/nova/flowing/icon.png

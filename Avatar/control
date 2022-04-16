@@ -1,0 +1,11 @@
+Package: com.titand3v.avatar
+Name: Avatar
+Architecture: iphoneos-arm
+Depends: mobilesubstrate, firmware (>= 14.0)
+Version: 1.0
+Section: Tweaks
+Description: Avatar studio for Memoji and Animoji
+Maintainer: TitanD3v <titand3veloper@gmail.com>
+Author: TitanD3v <titand3veloper@gmail.com>
+Depiction: https://titand3v.github.io/depictions/avatar/index.html
+Icon: https://titand3v.github.io/depictions/avatar/assets/icon.png

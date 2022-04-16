@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <array>
+        
+        <dict>
+            <key>name</key>
+            <string>Jarvis</string>
+            <key>price</key>
+            <string>$3.00</string>
+            <key>compatibility</key>
+            <string>iOS 13+</string>
+            <key>description</key>
+            <string>Powerful multi-center with control center, notification center, app launcher, clipboard manager, tweak list and music.</string>
+            <key>icon</key>
+            <string>jarvis.png</string>
+            <key>url</key>
+            <string>https://repo.twickd.com/package/com.twickd.southerngirlwhocode.jarvis</string>
+        </dict>
+        
+        <dict>
+            <key>name</key>
+            <string>Restriction</string>
+            <key>price</key>
+            <string>$2.50</string>
+            <key>compatibility</key>
+            <string>iOS 13+</string>
+            <key>description</key>
+            <string>Unlimited guest mode for your iOS device, you can log into unlimited accounts if you lend your phone to your friends or family.</string>
+            <key>icon</key>
+            <string>restriction.png</string>
+            <key>url</key>
+            <string>https://repo.twickd.com/package/com.twickd.southerngirlwhocode.restriction</string>
+        </dict>
+        
+        <dict>
+            <key>name</key>
+            <string>ColourMyDock</string>
+            <key>price</key>
+            <string>FREE</string>
+            <key>compatibility</key>
+            <string>iOS 14</string>
+            <key>description</key>
+            <string>Colour your dock with iOS 14 colour picker, very simple to use, double tap on the dock, choose your colour then your dock are colouring!</string>
+            <key>icon</key>
+            <string>colourmydock.png</string>
+            <key>url</key>
+            <string>https://titand3v.github.io/depictions/colourmydock/index.html</string>
+        </dict>
+
+        <dict>
+            <key>name</key>
+            <string>Nova</string>
+            <key>price</key>
+            <string>$2.50</string>
+            <key>compatibility</key>
+            <string>iOS 14</string>
+            <key>description</key>
+            <string>Send schedule messages with attachments for Messages app</string>
+            <key>icon</key>
+            <string>nova.png</string>
+            <key>url</key>
+            <string>https://titand3v.github.io/depictions/nova/index.html</string>
+        </dict>
+
+        <dict>
+            <key>name</key>
+            <string>Luv</string>
+            <key>price</key>
+            <string>FREE</string>
+            <key>compatibility</key>
+            <string>iOS 14</string>
+            <key>description</key>
+            <string>Floating button for Spotify to like or dislike the song and added to Liked Songs</string>
+            <key>icon</key>
+            <string>luv.png</string>
+            <key>url</key>
+            <string>https://titand3v.github.io/depictions/luv/index.html</string>
+        </dict>
+
+        <dict>
+            <key>name</key>
+            <string>Paradise</string>
+            <key>price</key>
+            <string>$3.00</string>
+            <key>compatibility</key>
+            <string>iOS 14</string>
+            <key>description</key>
+            <string>Icon editor for springboard apps, style apps label, widgets and app library</string>
+            <key>icon</key>
+            <string>paradise.png</string>
+            <key>url</key>
+            <string>https://titand3v.github.io/depictions/paradise/index.html</string>
+        </dict>
+
+        <dict>
+            <key>name</key>
+            <string>Breezy</string>
+            <key>price</key>
+            <string>FREE</string>
+            <key>compatibility</key>
+            <string>iOS 14</string>
+            <key>description</key>
+            <string>Invoke fake notifications with custom title, message and app of your choice from anywhere</string>
+            <key>icon</key>
+            <string>breezy.png</string>
+            <key>url</key>
+            <string>https://titand3v.github.io/depictions/breezy/index.html</string>
+        </dict>
+
+        <dict>
+            <key>name</key>
+            <string>Speedy</string>
+            <key>price</key>
+            <string>FREE</string>
+            <key>compatibility</key>
+            <string>iOS 14</string>
+            <key>description</key>
+            <string>Batch uninstall applications on SpringBoard via 3D Touch Menu</string>
+            <key>icon</key>
+            <string>speedy.png</string>
+            <key>url</key>
+            <string>https://titand3v.github.io/depictions/speedy/index.html</string>
+        </dict>
+
+        <dict>
+            <key>name</key>
+            <string>Substia</string>
+            <key>price</key>
+            <string>FREE</string>
+            <key>compatibility</key>
+            <string>iOS 14</string>
+            <key>description</key>
+            <string>Text replacemnet</string>
+            <key>icon</key>
+            <string>substia.png</string>
+            <key>url</key>
+            <string>https://titand3v.github.io/depictions/substia/index.html</string>
+        </dict>
+
+        <dict>
+            <key>name</key>
+            <string>Surge</string>
+            <key>price</key>
+            <string>$0.99</string>
+            <key>compatibility</key>
+            <string>iOS 14</string>
+            <key>description</key>
+            <string>Low power alert and quick way to enable LPM from the status bar</string>
+            <key>icon</key>
+            <string>surge.png</string>
+            <key>url</key>
+            <string>https://titand3v.github.io/depictions/surge/index.html</string>
+        </dict>
+
+        <dict>
+            <key>name</key>
+            <string>Digitnetic</string>
+            <key>price</key>
+            <string>$0.99</string>
+            <key>compatibility</key>
+            <string>iOS 14</string>
+            <key>description</key>
+            <string>Floating phone keypad and calculator</string>
+            <key>icon</key>
+            <string>digitnetic.png</string>
+            <key>url</key>
+            <string>https://titand3v.github.io/depictions/digitnetic/index.html</string>
+        </dict>
+
+        <dict>
+            <key>name</key>
+            <string>Unique</string>
+            <key>price</key>
+            <string>FREE</string>
+            <key>compatibility</key>
+            <string>iOS 14</string>
+            <key>description</key>
+            <string>Swipe up on the keyboard to paste your device's UDID</string>
+            <key>icon</key>
+            <string>unique.png</string>
+            <key>url</key>
+            <string>https://titand3v.github.io/depictions/unique/index.html</string>
+        </dict>
+
+        <dict>
+            <key>name</key>
+            <string>Palette</string>
+            <key>price</key>
+            <string>FREE</string>
+            <key>compatibility</key>
+            <string>iOS 14</string>
+            <key>description</key>
+            <string>Add colours to your collection</string>
+            <key>icon</key>
+            <string>palette.png</string>
+            <key>url</key>
+            <string>https://titand3v.github.io/depictions/palette/index.html</string>
+        </dict>
+
+        <dict>
+            <key>name</key>
+            <string>Flowing</string>
+            <key>price</key>
+            <string>FREE</string>
+            <key>compatibility</key>
+            <string>iOS 14</string>
+            <key>description</key>
+            <string>Disable paging scrolling on SpringBoard</string>
+            <key>icon</key>
+            <string>flowing.png</string>
+            <key>url</key>
+            <string>https://titand3v.github.io/depictions/flowing/index.html</string>
+        </dict>
+
+        <dict>
+            <key>name</key>
+            <string>Avatar</string>
+            <key>price</key>
+            <string>$2.50</string>
+            <key>compatibility</key>
+            <string>iOS 14</string>
+            <key>description</key>
+            <string>Avatar studio for Memoji and Animoji</string>
+            <key>icon</key>
+            <string>avatar.png</string>
+            <key>url</key>
+            <string>https://titand3v.github.io/depictions/avatar/index.html</string>
+        </dict>
+
+        <dict>
+            <key>name</key>
+            <string>Phoenix</string>
+            <key>price</key>
+            <string>$2.00</string>
+            <key>compatibility</key>
+            <string>iOS 14</string>
+            <key>description</key>
+            <string>A redesign of the contact list for the Phone app</string>
+            <key>icon</key>
+            <string>phoenix.png</string>
+            <key>url</key>
+            <string>https://titand3v.github.io/depictions/phoenix/index.html</string>
+        </dict>
+
+        <dict>
+            <key>name</key>
+            <string>iDevices</string>
+            <key>price</key>
+            <string>$2.00</string>
+            <key>compatibility</key>
+            <string>iOS 14</string>
+            <key>description</key>
+            <string>Devices Information</string>
+            <key>icon</key>
+            <string>idevices.png</string>
+            <key>url</key>
+            <string>https://titand3v.github.io/depictions/idevices/index.html</string>
+        </dict>
+        
+    </array>
+</plist>

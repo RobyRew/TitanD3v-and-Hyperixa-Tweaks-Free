@@ -1,0 +1,857 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A1676972631661300387CE5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A1676962631661300387CE5 /* AppDelegate.m */; };
+		5A16769A2631661300387CE5 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A1676992631661300387CE5 /* SceneDelegate.m */; };
+		5A16769D2631661300387CE5 /* TabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A16769C2631661300387CE5 /* TabViewController.m */; };
+		5A1676A02631661300387CE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A16769E2631661300387CE5 /* Main.storyboard */; };
+		5A1676A22631661700387CE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A1676A12631661700387CE5 /* Assets.xcassets */; };
+		5A1676A52631661700387CE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A1676A32631661700387CE5 /* LaunchScreen.storyboard */; };
+		5A1676A82631661700387CE5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A1676A72631661700387CE5 /* main.m */; };
+		5A1676B22631661700387CE5 /* ParadiseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A1676B12631661700387CE5 /* ParadiseTests.m */; };
+		5A1676BD2631661700387CE5 /* ParadiseUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A1676BC2631661700387CE5 /* ParadiseUITests.m */; };
+		5A1676D826316C7300387CE5 /* EditorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A1676D726316C7300387CE5 /* EditorViewController.m */; settings = {COMPILER_FLAGS = "-Wno-deprecated-declarations -Wno-implicit-retain-self"; }; };
+		5A1676DE26316C7B00387CE5 /* ThemesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A1676DD26316C7B00387CE5 /* ThemesViewController.m */; };
+		5A1676E32631733700387CE5 /* AppearanceColour.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A1676E22631733700387CE5 /* AppearanceColour.xcassets */; };
+		5A1676EC26317FA400387CE5 /* ThemesCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A1676EA26317FA400387CE5 /* ThemesCell.m */; };
+		5A7C952B2639D72D0093F0A4 /* IconsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A7C952A2639D72D0093F0A4 /* IconsViewController.m */; settings = {COMPILER_FLAGS = "-Wno-deprecated-declarations -Wno-implicit-retain-self"; }; };
+		5A7C95332639DF3F0093F0A4 /* Icons.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5A7C95322639DF3F0093F0A4 /* Icons.plist */; };
+		5A7C953C2639E3710093F0A4 /* GlyphCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A7C953B2639E3710093F0A4 /* GlyphCell.m */; };
+		5A7C95432639E7620093F0A4 /* PreviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A7C95422639E7620093F0A4 /* PreviewViewController.m */; };
+		5A98E86E2640128F00B53204 /* AccessoriesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A98E86D2640128F00B53204 /* AccessoriesViewController.m */; };
+		5A98E87E264019A800B53204 /* ColourPickerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A98E87D264019A800B53204 /* ColourPickerCell.m */; };
+		5A98E884264019BF00B53204 /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A98E883264019BF00B53204 /* CustomCell.m */; };
+		5AA0F93C26739622000CD30F /* TutorialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA0F93B26739622000CD30F /* TutorialViewController.m */; };
+		5AA0F9452673968E000CD30F /* TutorialCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA0F9442673968E000CD30F /* TutorialCell.m */; };
+		5AC7D7CE2635D659008252FE /* ParadiseSegmentControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AC7D7CD2635D659008252FE /* ParadiseSegmentControl.m */; settings = {COMPILER_FLAGS = "-Wno-deprecated-declarations -Wno-implicit-retain-self"; }; };
+		5AC7D7E0263608F4008252FE /* ToolsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AC7D7DF263608F4008252FE /* ToolsCell.m */; };
+		5AC7D7E62636CB46008252FE /* EditorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AC7D7E52636CB46008252FE /* EditorCell.m */; };
+		5AC7D7EC2636EA3E008252FE /* ColourCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AC7D7EB2636EA3E008252FE /* ColourCell.m */; };
+		5AE13DC726319A8900E9E3F0 /* AddFolderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AE13DC526319A8900E9E3F0 /* AddFolderCell.m */; };
+		5AE13DCF2631A28200E9E3F0 /* LibraryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AE13DCE2631A28200E9E3F0 /* LibraryViewController.m */; };
+		5AE13DDC2631A7BA00E9E3F0 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AE13DDB2631A7BA00E9E3F0 /* SettingsViewController.m */; };
+		5AE13DE62631AEE700E9E3F0 /* ConstraintExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AE13DE52631AEE600E9E3F0 /* ConstraintExtension.m */; };
+		5AE13DEC2631D0FC00E9E3F0 /* CreateThemeFolderVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AE13DEB2631D0FC00E9E3F0 /* CreateThemeFolderVC.m */; };
+		5AE13DFC26322B4F00E9E3F0 /* AppManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AE13DFB26322B4F00E9E3F0 /* AppManager.m */; };
+		5AE13E052632305D00E9E3F0 /* LibraryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AE13E042632305D00E9E3F0 /* LibraryCell.m */; };
+		5AE13E132632F8F900E9E3F0 /* UITextViewHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE13E0D2632F8F900E9E3F0 /* UITextViewHelper.swift */; };
+		5AE13E142632F8F900E9E3F0 /* UITextFieldHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE13E0E2632F8F900E9E3F0 /* UITextFieldHelper.swift */; };
+		5AE13E152632F8F900E9E3F0 /* DeviceHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE13E0F2632F8F900E9E3F0 /* DeviceHelper.swift */; };
+		5AE13E162632F8F900E9E3F0 /* NSLayoutHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE13E102632F8F900E9E3F0 /* NSLayoutHelper.swift */; };
+		5AE13E172632F8F900E9E3F0 /* UIButtonHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE13E112632F8F900E9E3F0 /* UIButtonHelper.swift */; };
+		5AE13E182632F8F900E9E3F0 /* UILabelHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE13E122632F8F900E9E3F0 /* UILabelHelper.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5A1676AE2631661700387CE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A16768A2631661300387CE5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A1676912631661300387CE5;
+			remoteInfo = Paradise;
+		};
+		5A1676B92631661700387CE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A16768A2631661300387CE5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A1676912631661300387CE5;
+			remoteInfo = Paradise;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5A1676922631661300387CE5 /* Paradise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Paradise.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A1676952631661300387CE5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5A1676962631661300387CE5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5A1676982631661300387CE5 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		5A1676992631661300387CE5 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		5A16769B2631661300387CE5 /* TabViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabViewController.h; sourceTree = "<group>"; };
+		5A16769C2631661300387CE5 /* TabViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabViewController.m; sourceTree = "<group>"; };
+		5A16769F2631661300387CE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5A1676A12631661700387CE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5A1676A42631661700387CE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5A1676A62631661700387CE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A1676A72631661700387CE5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5A1676AD2631661700387CE5 /* ParadiseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParadiseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A1676B12631661700387CE5 /* ParadiseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParadiseTests.m; sourceTree = "<group>"; };
+		5A1676B32631661700387CE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A1676B82631661700387CE5 /* ParadiseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParadiseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A1676BC2631661700387CE5 /* ParadiseUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParadiseUITests.m; sourceTree = "<group>"; };
+		5A1676BE2631661700387CE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A1676D626316C7300387CE5 /* EditorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EditorViewController.h; sourceTree = "<group>"; };
+		5A1676D726316C7300387CE5 /* EditorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EditorViewController.m; sourceTree = "<group>"; };
+		5A1676DC26316C7B00387CE5 /* ThemesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThemesViewController.h; sourceTree = "<group>"; };
+		5A1676DD26316C7B00387CE5 /* ThemesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThemesViewController.m; sourceTree = "<group>"; };
+		5A1676E22631733700387CE5 /* AppearanceColour.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = AppearanceColour.xcassets; sourceTree = "<group>"; };
+		5A1676E926317FA400387CE5 /* ThemesCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThemesCell.h; sourceTree = "<group>"; };
+		5A1676EA26317FA400387CE5 /* ThemesCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThemesCell.m; sourceTree = "<group>"; };
+		5A7C95202639CFB60093F0A4 /* Preferences.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Preferences.h; sourceTree = "<group>"; };
+		5A7C95292639D72D0093F0A4 /* IconsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IconsViewController.h; sourceTree = "<group>"; };
+		5A7C952A2639D72D0093F0A4 /* IconsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IconsViewController.m; sourceTree = "<group>"; };
+		5A7C95322639DF3F0093F0A4 /* Icons.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Icons.plist; sourceTree = "<group>"; };
+		5A7C953A2639E3710093F0A4 /* GlyphCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GlyphCell.h; sourceTree = "<group>"; };
+		5A7C953B2639E3710093F0A4 /* GlyphCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GlyphCell.m; sourceTree = "<group>"; };
+		5A7C95412639E7620093F0A4 /* PreviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreviewViewController.h; sourceTree = "<group>"; };
+		5A7C95422639E7620093F0A4 /* PreviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreviewViewController.m; sourceTree = "<group>"; };
+		5A98E86C2640128F00B53204 /* AccessoriesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AccessoriesViewController.h; sourceTree = "<group>"; };
+		5A98E86D2640128F00B53204 /* AccessoriesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AccessoriesViewController.m; sourceTree = "<group>"; };
+		5A98E87C264019A800B53204 /* ColourPickerCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColourPickerCell.h; sourceTree = "<group>"; };
+		5A98E87D264019A800B53204 /* ColourPickerCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColourPickerCell.m; sourceTree = "<group>"; };
+		5A98E882264019BF00B53204 /* CustomCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
+		5A98E883264019BF00B53204 /* CustomCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
+		5AA0F93A26739622000CD30F /* TutorialViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TutorialViewController.h; sourceTree = "<group>"; };
+		5AA0F93B26739622000CD30F /* TutorialViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TutorialViewController.m; sourceTree = "<group>"; };
+		5AA0F9432673968E000CD30F /* TutorialCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TutorialCell.h; sourceTree = "<group>"; };
+		5AA0F9442673968E000CD30F /* TutorialCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TutorialCell.m; sourceTree = "<group>"; };
+		5AC7D7CC2635D659008252FE /* ParadiseSegmentControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParadiseSegmentControl.h; sourceTree = "<group>"; };
+		5AC7D7CD2635D659008252FE /* ParadiseSegmentControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParadiseSegmentControl.m; sourceTree = "<group>"; };
+		5AC7D7DE263608F4008252FE /* ToolsCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ToolsCell.h; sourceTree = "<group>"; };
+		5AC7D7DF263608F4008252FE /* ToolsCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToolsCell.m; sourceTree = "<group>"; };
+		5AC7D7E42636CB46008252FE /* EditorCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EditorCell.h; sourceTree = "<group>"; };
+		5AC7D7E52636CB46008252FE /* EditorCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EditorCell.m; sourceTree = "<group>"; };
+		5AC7D7EA2636EA3E008252FE /* ColourCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColourCell.h; sourceTree = "<group>"; };
+		5AC7D7EB2636EA3E008252FE /* ColourCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColourCell.m; sourceTree = "<group>"; };
+		5AE13DC426319A8900E9E3F0 /* AddFolderCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddFolderCell.h; sourceTree = "<group>"; };
+		5AE13DC526319A8900E9E3F0 /* AddFolderCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddFolderCell.m; sourceTree = "<group>"; };
+		5AE13DCD2631A28200E9E3F0 /* LibraryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LibraryViewController.h; sourceTree = "<group>"; };
+		5AE13DCE2631A28200E9E3F0 /* LibraryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LibraryViewController.m; sourceTree = "<group>"; wrapsLines = 0; };
+		5AE13DDA2631A7BA00E9E3F0 /* SettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		5AE13DDB2631A7BA00E9E3F0 /* SettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		5AE13DE42631AEE600E9E3F0 /* ConstraintExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConstraintExtension.h; sourceTree = "<group>"; };
+		5AE13DE52631AEE600E9E3F0 /* ConstraintExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConstraintExtension.m; sourceTree = "<group>"; };
+		5AE13DEA2631D0FC00E9E3F0 /* CreateThemeFolderVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CreateThemeFolderVC.h; sourceTree = "<group>"; };
+		5AE13DEB2631D0FC00E9E3F0 /* CreateThemeFolderVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CreateThemeFolderVC.m; sourceTree = "<group>"; };
+		5AE13DFA26322B4F00E9E3F0 /* AppManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppManager.h; sourceTree = "<group>"; };
+		5AE13DFB26322B4F00E9E3F0 /* AppManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppManager.m; sourceTree = "<group>"; };
+		5AE13E032632305D00E9E3F0 /* LibraryCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LibraryCell.h; sourceTree = "<group>"; };
+		5AE13E042632305D00E9E3F0 /* LibraryCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LibraryCell.m; sourceTree = "<group>"; wrapsLines = 0; };
+		5AE13E0C2632F8F800E9E3F0 /* Paradise-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Paradise-Bridging-Header.h"; sourceTree = "<group>"; };
+		5AE13E0D2632F8F900E9E3F0 /* UITextViewHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextViewHelper.swift; sourceTree = "<group>"; };
+		5AE13E0E2632F8F900E9E3F0 /* UITextFieldHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextFieldHelper.swift; sourceTree = "<group>"; };
+		5AE13E0F2632F8F900E9E3F0 /* DeviceHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceHelper.swift; sourceTree = "<group>"; };
+		5AE13E102632F8F900E9E3F0 /* NSLayoutHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSLayoutHelper.swift; sourceTree = "<group>"; };
+		5AE13E112632F8F900E9E3F0 /* UIButtonHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonHelper.swift; sourceTree = "<group>"; };
+		5AE13E122632F8F900E9E3F0 /* UILabelHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILabelHelper.swift; sourceTree = "<group>"; };
+		8B079E982638129300AAF999 /* Macros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Macros.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A16768F2631661300387CE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A1676AA2631661700387CE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A1676B52631661700387CE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A1676892631661300387CE5 = {
+			isa = PBXGroup;
+			children = (
+				5A1676942631661300387CE5 /* Paradise */,
+				5A1676B02631661700387CE5 /* ParadiseTests */,
+				5A1676BB2631661700387CE5 /* ParadiseUITests */,
+				5A1676932631661300387CE5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5A1676932631661300387CE5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A1676922631661300387CE5 /* Paradise.app */,
+				5A1676AD2631661700387CE5 /* ParadiseTests.xctest */,
+				5A1676B82631661700387CE5 /* ParadiseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A1676942631661300387CE5 /* Paradise */ = {
+			isa = PBXGroup;
+			children = (
+				5A7C95322639DF3F0093F0A4 /* Icons.plist */,
+				5A1676952631661300387CE5 /* AppDelegate.h */,
+				5A1676962631661300387CE5 /* AppDelegate.m */,
+				5A1676982631661300387CE5 /* SceneDelegate.h */,
+				5A1676992631661300387CE5 /* SceneDelegate.m */,
+				5A16769B2631661300387CE5 /* TabViewController.h */,
+				5A16769C2631661300387CE5 /* TabViewController.m */,
+				5AA0F93926739614000CD30F /* Tutorial */,
+				5AE13DE32631AEE600E9E3F0 /* Constraints */,
+				5AE13DF926322B3F00E9E3F0 /* Manager */,
+				5AC7D7CB2635D659008252FE /* Segment */,
+				5A7C95402639E7620093F0A4 /* Preview */,
+				5A1676E726317E7700387CE5 /* Editor */,
+				5A98E872264012C700B53204 /* Accessories */,
+				5A1676E826317E8300387CE5 /* Themes */,
+				5AE13DCC2631A26C00E9E3F0 /* Library */,
+				5AE13DD92631A7A100E9E3F0 /* Settings */,
+				5A16769E2631661300387CE5 /* Main.storyboard */,
+				5A1676A12631661700387CE5 /* Assets.xcassets */,
+				5A1676E22631733700387CE5 /* AppearanceColour.xcassets */,
+				5A1676A62631661700387CE5 /* Info.plist */,
+				5A1676A72631661700387CE5 /* main.m */,
+				5A1676A32631661700387CE5 /* LaunchScreen.storyboard */,
+			);
+			path = Paradise;
+			sourceTree = "<group>";
+		};
+		5A1676B02631661700387CE5 /* ParadiseTests */ = {
+			isa = PBXGroup;
+			children = (
+				5A1676B12631661700387CE5 /* ParadiseTests.m */,
+				5A1676B32631661700387CE5 /* Info.plist */,
+			);
+			path = ParadiseTests;
+			sourceTree = "<group>";
+		};
+		5A1676BB2631661700387CE5 /* ParadiseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5A1676BC2631661700387CE5 /* ParadiseUITests.m */,
+				5A1676BE2631661700387CE5 /* Info.plist */,
+			);
+			path = ParadiseUITests;
+			sourceTree = "<group>";
+		};
+		5A1676E726317E7700387CE5 /* Editor */ = {
+			isa = PBXGroup;
+			children = (
+				5A1676D626316C7300387CE5 /* EditorViewController.h */,
+				5A1676D726316C7300387CE5 /* EditorViewController.m */,
+				5AC7D7DE263608F4008252FE /* ToolsCell.h */,
+				5AC7D7DF263608F4008252FE /* ToolsCell.m */,
+				5AC7D7E42636CB46008252FE /* EditorCell.h */,
+				5AC7D7E52636CB46008252FE /* EditorCell.m */,
+				5AC7D7EA2636EA3E008252FE /* ColourCell.h */,
+				5AC7D7EB2636EA3E008252FE /* ColourCell.m */,
+				5A7C953A2639E3710093F0A4 /* GlyphCell.h */,
+				5A7C953B2639E3710093F0A4 /* GlyphCell.m */,
+				5A7C95292639D72D0093F0A4 /* IconsViewController.h */,
+				5A7C952A2639D72D0093F0A4 /* IconsViewController.m */,
+			);
+			path = Editor;
+			sourceTree = "<group>";
+		};
+		5A1676E826317E8300387CE5 /* Themes */ = {
+			isa = PBXGroup;
+			children = (
+				5A1676DC26316C7B00387CE5 /* ThemesViewController.h */,
+				5A1676DD26316C7B00387CE5 /* ThemesViewController.m */,
+				5A1676E926317FA400387CE5 /* ThemesCell.h */,
+				5A1676EA26317FA400387CE5 /* ThemesCell.m */,
+				5AE13DC426319A8900E9E3F0 /* AddFolderCell.h */,
+				5AE13DC526319A8900E9E3F0 /* AddFolderCell.m */,
+				5AE13DEA2631D0FC00E9E3F0 /* CreateThemeFolderVC.h */,
+				5AE13DEB2631D0FC00E9E3F0 /* CreateThemeFolderVC.m */,
+			);
+			path = Themes;
+			sourceTree = "<group>";
+		};
+		5A7C95402639E7620093F0A4 /* Preview */ = {
+			isa = PBXGroup;
+			children = (
+				5A7C95412639E7620093F0A4 /* PreviewViewController.h */,
+				5A7C95422639E7620093F0A4 /* PreviewViewController.m */,
+			);
+			path = Preview;
+			sourceTree = "<group>";
+		};
+		5A98E872264012C700B53204 /* Accessories */ = {
+			isa = PBXGroup;
+			children = (
+				5A98E86C2640128F00B53204 /* AccessoriesViewController.h */,
+				5A98E86D2640128F00B53204 /* AccessoriesViewController.m */,
+				5A98E87C264019A800B53204 /* ColourPickerCell.h */,
+				5A98E87D264019A800B53204 /* ColourPickerCell.m */,
+				5A98E882264019BF00B53204 /* CustomCell.h */,
+				5A98E883264019BF00B53204 /* CustomCell.m */,
+			);
+			path = Accessories;
+			sourceTree = "<group>";
+		};
+		5AA0F93926739614000CD30F /* Tutorial */ = {
+			isa = PBXGroup;
+			children = (
+				5AA0F93A26739622000CD30F /* TutorialViewController.h */,
+				5AA0F93B26739622000CD30F /* TutorialViewController.m */,
+				5AA0F9432673968E000CD30F /* TutorialCell.h */,
+				5AA0F9442673968E000CD30F /* TutorialCell.m */,
+			);
+			path = Tutorial;
+			sourceTree = "<group>";
+		};
+		5AC7D7CB2635D659008252FE /* Segment */ = {
+			isa = PBXGroup;
+			children = (
+				5AC7D7CC2635D659008252FE /* ParadiseSegmentControl.h */,
+				5AC7D7CD2635D659008252FE /* ParadiseSegmentControl.m */,
+			);
+			path = Segment;
+			sourceTree = "<group>";
+		};
+		5AE13DCC2631A26C00E9E3F0 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				5AE13E032632305D00E9E3F0 /* LibraryCell.h */,
+				5AE13E042632305D00E9E3F0 /* LibraryCell.m */,
+				5AE13DCD2631A28200E9E3F0 /* LibraryViewController.h */,
+				5AE13DCE2631A28200E9E3F0 /* LibraryViewController.m */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		5AE13DD92631A7A100E9E3F0 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				5AE13DDA2631A7BA00E9E3F0 /* SettingsViewController.h */,
+				5AE13DDB2631A7BA00E9E3F0 /* SettingsViewController.m */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		5AE13DE32631AEE600E9E3F0 /* Constraints */ = {
+			isa = PBXGroup;
+			children = (
+				5AE13DE42631AEE600E9E3F0 /* ConstraintExtension.h */,
+				5AE13DE52631AEE600E9E3F0 /* ConstraintExtension.m */,
+				5AE13E0F2632F8F900E9E3F0 /* DeviceHelper.swift */,
+				5AE13E102632F8F900E9E3F0 /* NSLayoutHelper.swift */,
+				5AE13E112632F8F900E9E3F0 /* UIButtonHelper.swift */,
+				5AE13E122632F8F900E9E3F0 /* UILabelHelper.swift */,
+				5AE13E0E2632F8F900E9E3F0 /* UITextFieldHelper.swift */,
+				5AE13E0D2632F8F900E9E3F0 /* UITextViewHelper.swift */,
+				5AE13E0C2632F8F800E9E3F0 /* Paradise-Bridging-Header.h */,
+				8B079E982638129300AAF999 /* Macros.h */,
+			);
+			path = Constraints;
+			sourceTree = "<group>";
+		};
+		5AE13DF926322B3F00E9E3F0 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				5AE13DFA26322B4F00E9E3F0 /* AppManager.h */,
+				5AE13DFB26322B4F00E9E3F0 /* AppManager.m */,
+				5A7C95202639CFB60093F0A4 /* Preferences.h */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A1676912631661300387CE5 /* Paradise */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A1676C12631661700387CE5 /* Build configuration list for PBXNativeTarget "Paradise" */;
+			buildPhases = (
+				5A16768E2631661300387CE5 /* Sources */,
+				5A16768F2631661300387CE5 /* Frameworks */,
+				5A1676902631661300387CE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Paradise;
+			productName = Paradise;
+			productReference = 5A1676922631661300387CE5 /* Paradise.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5A1676AC2631661700387CE5 /* ParadiseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A1676C42631661700387CE5 /* Build configuration list for PBXNativeTarget "ParadiseTests" */;
+			buildPhases = (
+				5A1676A92631661700387CE5 /* Sources */,
+				5A1676AA2631661700387CE5 /* Frameworks */,
+				5A1676AB2631661700387CE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A1676AF2631661700387CE5 /* PBXTargetDependency */,
+			);
+			name = ParadiseTests;
+			productName = ParadiseTests;
+			productReference = 5A1676AD2631661700387CE5 /* ParadiseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5A1676B72631661700387CE5 /* ParadiseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A1676C72631661700387CE5 /* Build configuration list for PBXNativeTarget "ParadiseUITests" */;
+			buildPhases = (
+				5A1676B42631661700387CE5 /* Sources */,
+				5A1676B52631661700387CE5 /* Frameworks */,
+				5A1676B62631661700387CE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A1676BA2631661700387CE5 /* PBXTargetDependency */,
+			);
+			name = ParadiseUITests;
+			productName = ParadiseUITests;
+			productReference = 5A1676B82631661700387CE5 /* ParadiseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A16768A2631661300387CE5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					5A1676912631661300387CE5 = {
+						CreatedOnToolsVersion = 12.3;
+						LastSwiftMigration = 1230;
+					};
+					5A1676AC2631661700387CE5 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 5A1676912631661300387CE5;
+					};
+					5A1676B72631661700387CE5 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 5A1676912631661300387CE5;
+					};
+				};
+			};
+			buildConfigurationList = 5A16768D2631661300387CE5 /* Build configuration list for PBXProject "Paradise" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5A1676892631661300387CE5;
+			productRefGroup = 5A1676932631661300387CE5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A1676912631661300387CE5 /* Paradise */,
+				5A1676AC2631661700387CE5 /* ParadiseTests */,
+				5A1676B72631661700387CE5 /* ParadiseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A1676902631661300387CE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A1676A52631661700387CE5 /* LaunchScreen.storyboard in Resources */,
+				5A1676E32631733700387CE5 /* AppearanceColour.xcassets in Resources */,
+				5A1676A22631661700387CE5 /* Assets.xcassets in Resources */,
+				5A7C95332639DF3F0093F0A4 /* Icons.plist in Resources */,
+				5A1676A02631661300387CE5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A1676AB2631661700387CE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A1676B62631661700387CE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A16768E2631661300387CE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AE13DEC2631D0FC00E9E3F0 /* CreateThemeFolderVC.m in Sources */,
+				5A16769D2631661300387CE5 /* TabViewController.m in Sources */,
+				5AE13E172632F8F900E9E3F0 /* UIButtonHelper.swift in Sources */,
+				5A7C952B2639D72D0093F0A4 /* IconsViewController.m in Sources */,
+				5AC7D7EC2636EA3E008252FE /* ColourCell.m in Sources */,
+				5A1676972631661300387CE5 /* AppDelegate.m in Sources */,
+				5A1676DE26316C7B00387CE5 /* ThemesViewController.m in Sources */,
+				5AC7D7E62636CB46008252FE /* EditorCell.m in Sources */,
+				5AE13DCF2631A28200E9E3F0 /* LibraryViewController.m in Sources */,
+				5AE13DFC26322B4F00E9E3F0 /* AppManager.m in Sources */,
+				5A7C953C2639E3710093F0A4 /* GlyphCell.m in Sources */,
+				5A1676A82631661700387CE5 /* main.m in Sources */,
+				5AE13E182632F8F900E9E3F0 /* UILabelHelper.swift in Sources */,
+				5AA0F93C26739622000CD30F /* TutorialViewController.m in Sources */,
+				5A98E87E264019A800B53204 /* ColourPickerCell.m in Sources */,
+				5A98E884264019BF00B53204 /* CustomCell.m in Sources */,
+				5A98E86E2640128F00B53204 /* AccessoriesViewController.m in Sources */,
+				5AE13E052632305D00E9E3F0 /* LibraryCell.m in Sources */,
+				5A7C95432639E7620093F0A4 /* PreviewViewController.m in Sources */,
+				5AE13E162632F8F900E9E3F0 /* NSLayoutHelper.swift in Sources */,
+				5AC7D7E0263608F4008252FE /* ToolsCell.m in Sources */,
+				5AE13DE62631AEE700E9E3F0 /* ConstraintExtension.m in Sources */,
+				5AE13E142632F8F900E9E3F0 /* UITextFieldHelper.swift in Sources */,
+				5AC7D7CE2635D659008252FE /* ParadiseSegmentControl.m in Sources */,
+				5A1676EC26317FA400387CE5 /* ThemesCell.m in Sources */,
+				5A1676D826316C7300387CE5 /* EditorViewController.m in Sources */,
+				5AE13E132632F8F900E9E3F0 /* UITextViewHelper.swift in Sources */,
+				5AE13E152632F8F900E9E3F0 /* DeviceHelper.swift in Sources */,
+				5AE13DDC2631A7BA00E9E3F0 /* SettingsViewController.m in Sources */,
+				5AA0F9452673968E000CD30F /* TutorialCell.m in Sources */,
+				5A16769A2631661300387CE5 /* SceneDelegate.m in Sources */,
+				5AE13DC726319A8900E9E3F0 /* AddFolderCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A1676A92631661700387CE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A1676B22631661700387CE5 /* ParadiseTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A1676B42631661700387CE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A1676BD2631661700387CE5 /* ParadiseUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A1676AF2631661700387CE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A1676912631661300387CE5 /* Paradise */;
+			targetProxy = 5A1676AE2631661700387CE5 /* PBXContainerItemProxy */;
+		};
+		5A1676BA2631661700387CE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A1676912631661300387CE5 /* Paradise */;
+			targetProxy = 5A1676B92631661700387CE5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5A16769E2631661300387CE5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A16769F2631661300387CE5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5A1676A32631661700387CE5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A1676A42631661700387CE5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5A1676BF2631661700387CE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5A1676C02631661700387CE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A1676C22631661700387CE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7W4LY2JZ25;
+				INFOPLIST_FILE = Paradise/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TitanD3v.Paradise;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Paradise/Constraints/Paradise-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		5A1676C32631661700387CE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7W4LY2JZ25;
+				INFOPLIST_FILE = Paradise/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TitanD3v.Paradise;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Paradise/Constraints/Paradise-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		5A1676C52631661700387CE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7W4LY2JZ25;
+				INFOPLIST_FILE = ParadiseTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TitanD3v.ParadiseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Paradise.app/Paradise";
+			};
+			name = Debug;
+		};
+		5A1676C62631661700387CE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7W4LY2JZ25;
+				INFOPLIST_FILE = ParadiseTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TitanD3v.ParadiseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Paradise.app/Paradise";
+			};
+			name = Release;
+		};
+		5A1676C82631661700387CE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7W4LY2JZ25;
+				INFOPLIST_FILE = ParadiseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TitanD3v.ParadiseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Paradise;
+			};
+			name = Debug;
+		};
+		5A1676C92631661700387CE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7W4LY2JZ25;
+				INFOPLIST_FILE = ParadiseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TitanD3v.ParadiseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Paradise;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A16768D2631661300387CE5 /* Build configuration list for PBXProject "Paradise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A1676BF2631661700387CE5 /* Debug */,
+				5A1676C02631661700387CE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A1676C12631661700387CE5 /* Build configuration list for PBXNativeTarget "Paradise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A1676C22631661700387CE5 /* Debug */,
+				5A1676C32631661700387CE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A1676C42631661700387CE5 /* Build configuration list for PBXNativeTarget "ParadiseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A1676C52631661700387CE5 /* Debug */,
+				5A1676C62631661700387CE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A1676C72631661700387CE5 /* Build configuration list for PBXNativeTarget "ParadiseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A1676C82631661700387CE5 /* Debug */,
+				5A1676C92631661700387CE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5A16768A2631661300387CE5 /* Project object */;
+}
