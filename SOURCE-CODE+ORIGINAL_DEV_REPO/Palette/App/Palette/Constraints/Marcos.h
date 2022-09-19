@@ -1,0 +1,2 @@
+#define iPhone_XR_XS_11Pro ([[UIScreen mainScreen] bounds].size.height == 896) // iPhone XR, XS Max, 11 Pro Max
+#define iPhone_12_Pro_Max ([[UIScreen mainScreen] bounds].size.height == 926) // iPhone 12 Pro Max

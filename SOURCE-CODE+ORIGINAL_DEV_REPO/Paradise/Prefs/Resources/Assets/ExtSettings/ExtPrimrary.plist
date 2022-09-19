@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>items</key>
+		<array>
+
+			<dict>
+				<key>cell</key>
+				<string>PSGroupCell</string>
+				<key>headerCellClass</key>
+				<string>TDHeaderCell</string>
+				<key>title</key>
+				<string>Categories</string>
+			</dict>
+
+			<dict>
+				<key>cellClass</key>
+				<string>TDGridCell</string>
+				<key>leftTitle</key>
+				<string>Appearance</string>
+				<key>leftIconName</key>
+				<string>appearance</string>
+				<key>leftClass</key>
+				<string>ParadiseAppearanceController</string>
+				<key>middleTitle</key>
+				<string>Colour</string>
+				<key>middleIconName</key>
+				<string>colour</string>
+				<key>middleClass</key>
+				<string>ParadiseColourController</string>
+				<key>rightTitle</key>
+				<string>Miscellaneous</string>
+				<key>rightIconName</key>
+				<string>misc</string>
+				<key>rightClass</key>
+				<string>ParadiseMiscellaneousController</string>
+				<key>classID</key>
+				<string>external</string>
+			</dict>
+
+		</array>
+		<key>title</key>
+		<string></string>
+	</dict>
+</plist>

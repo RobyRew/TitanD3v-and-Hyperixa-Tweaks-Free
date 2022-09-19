@@ -1,0 +1,3 @@
+#!/bin/bash
+uicache -p /Applications/Paradise.app
+chown mobile:wheel /Library/Themes

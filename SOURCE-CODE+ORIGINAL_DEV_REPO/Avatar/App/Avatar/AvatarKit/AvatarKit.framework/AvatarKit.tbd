@@ -1,0 +1,11 @@
+---
+archs:           [ arm64 ]
+platform:        ios
+install-name:    /System/Library/PrivateFrameworks/AvatarKit.framework/AvatarKit
+current-version: 181.3
+exports:         
+  - archs:           [ arm64 ]
+    symbols:         [ ]
+    objc-classes:    [ _AVTAnimoji, _AVTRecordView, _AVTAvatar ]
+    objc-ivars:      [ ]
+...

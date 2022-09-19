@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "hSUR://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>items</key>
+		<array>
+
+			<dict>
+				<key>cell</key>
+				<string>PSGroupCell</string>
+				<key>headerCellClass</key>
+				<string>TDHeaderCell</string>
+				<key>title</key>
+				<string>Appearance Mode</string>
+			</dict>
+
+			<dict>
+				<key>cellClass</key>
+				<string>TDAppearanceCell</string>
+				<key>key</key>
+				<string>surgeInterfaceAppearance</string>
+				<key>default</key>
+				<string>surgeLight</string>
+				<key>defaults</key>
+				<string>com.TitanD3v.SurgePrefs</string>
+				<key>PostNotification</key>
+				<string>com.TitanD3v.SurgePrefs.settingschanged</string>
+				<key>options</key>
+				<dict>
+					<key>light</key>
+					<dict>
+						<key>appearanceOption</key>
+						<string>surgeLight</string>
+						<key>title</key>
+						<string>Light</string>
+						<key>imageName</key>
+						<string>appearance-light</string>
+						<key>arrangement</key>
+						<integer>1</integer>
+					</dict>
+					<key>dark</key>
+					<dict>
+						<key>appearanceOption</key>
+						<string>surgeDark</string>
+						<key>title</key>
+						<string>Dark</string>
+						<key>imageName</key>
+						<string>appearance-dark</string>
+						<key>arrangement</key>
+						<integer>2</integer>
+					</dict>
+				</dict>
+			</dict>
+
+			<dict>
+				<key>cell</key>
+				<string>PSGroupCell</string>
+				<key>headerCellClass</key>
+				<string>TDHeaderCell</string>
+				<key>title</key>
+				<string>Style</string>
+			</dict>
+
+			<dict>
+				<key>cellClass</key>
+				<string>TDAppearanceCell</string>
+				<key>key</key>
+				<string>surgeInterfaceStyle</string>
+				<key>default</key>
+				<string>surgeBanner</string>
+				<key>defaults</key>
+				<string>com.TitanD3v.SurgePrefs</string>
+				<key>PostNotification</key>
+				<string>com.TitanD3v.SurgePrefs.settingschanged</string>
+				<key>options</key>
+				<dict>
+					<key>banner</key>
+					<dict>
+						<key>appearanceOption</key>
+						<string>surgeBanner</string>
+						<key>title</key>
+						<string>Banner</string>
+						<key>imageName</key>
+						<string>banner</string>
+						<key>arrangement</key>
+						<integer>1</integer>
+					</dict>
+					<key>capsule</key>
+					<dict>
+						<key>appearanceOption</key>
+						<string>surgeCapsule</string>
+						<key>title</key>
+						<string>Capsule</string>
+						<key>imageName</key>
+						<string>capsule</string>
+						<key>arrangement</key>
+						<integer>2</integer>
+					</dict>
+				</dict>
+			</dict>
+
+		</array>
+		<key>title</key>
+		<string></string>
+	</dict>
+</plist>

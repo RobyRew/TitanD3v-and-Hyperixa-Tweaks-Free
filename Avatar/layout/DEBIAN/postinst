@@ -1,3 +1,0 @@
-#!/bin/bash
-su mobile -c uicache &>/dev/null
-uicache -p /Applications/Avatar.app

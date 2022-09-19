@@ -1,0 +1,9 @@
+Package: com.titand3v.palette
+Name: Palette
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Browse application info.
+Maintainer: TitanD3v <titand3veloper@gmail.com>
+Author: TitanD3v <titand3veloper@gmail.com>
+Section: Utilities
+Depends: firmware (>= 14.0)

@@ -1,0 +1,11 @@
+Package: com.titand3v.idevices
+Name: iDevices
+Architecture: iphoneos-arm
+Depends: mobilesubstrate, applist, com.titand3v.libtitand3vuniversal (>= 1.9)
+Version: 1.0
+Section: Tweaks
+Description: TitanD3v Tweaks
+Maintainer: TitanD3v <titand3veloper@gmail.com>
+Author: TitanD3v <titand3veloper@gmail.com>
+Depiction: https://titand3v.github.io/depictions/idevices/index.html
+Icon: https://titand3v.github.io/depictions/idevices/assets/icon.png

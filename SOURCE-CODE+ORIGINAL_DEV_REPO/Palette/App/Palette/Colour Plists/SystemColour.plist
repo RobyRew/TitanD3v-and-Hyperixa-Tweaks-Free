@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <array>
+        
+        <dict>
+            <key>colourName</key>
+            <string>Blue</string>
+            <key>hexCode</key>
+            <string>027AFF</string>
+        </dict>
+        
+        <dict>
+            <key>colourName</key>
+            <string>Green</string>
+            <key>hexCode</key>
+            <string>35C759</string>
+        </dict>
+        
+        <dict>
+            <key>colourName</key>
+            <string>Indigo</string>
+            <key>hexCode</key>
+            <string>5957D5</string>
+        </dict>
+        
+        <dict>
+            <key>colourName</key>
+            <string>Orange</string>
+            <key>hexCode</key>
+            <string>FF9500</string>
+        </dict>
+        
+        <dict>
+            <key>colourName</key>
+            <string>Pink</string>
+            <key>hexCode</key>
+            <string>FF2E55</string>
+        </dict>
+        
+        <dict>
+            <key>colourName</key>
+            <string>Purple</string>
+            <key>hexCode</key>
+            <string>AF52DE</string>
+        </dict>
+        
+        <dict>
+            <key>colourName</key>
+            <string>Red</string>
+            <key>hexCode</key>
+            <string>FF3C2F</string>
+        </dict>
+        
+        <dict>
+            <key>colourName</key>
+            <string>Teal</string>
+            <key>hexCode</key>
+            <string>5BC9FA</string>
+        </dict>
+        
+        <dict>
+            <key>colourName</key>
+            <string>Yellow</string>
+            <key>hexCode</key>
+            <string>FFCC01</string>
+        </dict>
+        
+    </array>
+</plist>

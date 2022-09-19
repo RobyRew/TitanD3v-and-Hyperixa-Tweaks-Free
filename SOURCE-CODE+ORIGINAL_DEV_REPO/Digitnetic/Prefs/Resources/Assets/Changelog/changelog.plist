@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <array>
+
+        <dict>
+            <key>Date</key>
+            <string>22nd June 2021</string>
+            <key>Version</key>
+            <string>v1.0</string>
+            <key>ChangelogDescription</key>
+            <array>
+                <string>Added highlighting button when pressed on phone leypad or calculator buttons</string>
+                <string>Added activator gesture to show or hide Digitnetic</string>
+                <string>Fixed decimal for calculator isn't showing the result when adding decimal.</string>
+            </array>
+            <key>updateCategories</key>
+            <array>
+                <integer>3</integer>
+                <integer>3</integer>
+                <integer>1</integer>
+            </array>
+        </dict>
+
+        <dict>
+            <key>Date</key>
+            <string>19th June 2021</string>
+            <key>Version</key>
+            <string>v1.0</string>
+            <key>ChangelogDescription</key>
+            <array>
+                <string>Initial Release...</string>
+            </array>
+            <key>updateCategories</key>
+            <array>
+                <integer>0</integer>
+            </array>
+        </dict>
+        
+    </array>
+</plist>
