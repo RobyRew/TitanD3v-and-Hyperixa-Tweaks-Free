@@ -21,7 +21,7 @@ Flowing
 
 iDevices
 
-libTitanD3vUniversal (not the one now corrupted by the new repo)
+libTitanD3vUniversal(not the one now corrupted by the new repo)
 
 Luv
 
